@@ -1,0 +1,21 @@
+{
+	"name": "lowcoden",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"genpages": "ts-node --esm --script-mode scaffold.ts"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.5.0",
+		"@typescript-eslint/parser": "^6.5.0",
+		"eslint": "^8.48.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-svelte": "^2.33.0",
+		"prettier": "^3.0.3",
+		"prettier-plugin-svelte": "^3.0.3",
+		"ts-node": "^10.9.1",
+		"tslib": "^2.6.2",
+		"typescript": "^5.2.2"
+	},
+	"type": "module"
+}

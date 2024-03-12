@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/(pages)/services/open-source-consulting/+page.svelte";

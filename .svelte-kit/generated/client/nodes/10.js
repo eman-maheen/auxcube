@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/(pages)/services/low-code-development/+page.svelte";
