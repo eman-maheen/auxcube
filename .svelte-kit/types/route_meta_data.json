@@ -9,45 +9,5 @@
 	"/(pages)/contact/[[service]]": [
 		"src/routes/(pages)/contact/[[service]]/+page.server.ts",
 		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/data-scraping": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/greenfield-software-development": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/low-code-automation": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/low-code-consulting": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/low-code-development": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/mvp-development": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/no-code-automation": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/no-code-consulting": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/open-source-consulting": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/poc-development": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/robotic-process-automation": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/services/slc-development": [
-		"src/routes/+layout.server.ts"
-	],
-	"/(pages)/[noorlow]-code/[[slug]]": [
-		"src/routes/(pages)/[noorlow]-code/[[slug]]/+page.server.ts",
-		"src/routes/+layout.server.ts"
 	]
 }

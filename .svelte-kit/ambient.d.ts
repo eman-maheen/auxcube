@@ -37,6 +37,7 @@ declare module '$env/static/private' {
 	export const LESS: string;
 	export const XDG_SESSION_PATH: string;
 	export const NVM_INC: string;
+	export const TERM_PROGRAM_VERSION: string;
 	export const GTK_IM_MODULE: string;
 	export const MACHTYPE: string;
 	export const G_BROKEN_FILENAMES: string;
@@ -57,6 +58,7 @@ declare module '$env/static/private' {
 	export const DESKTOP_SESSION: string;
 	export const SSH_AGENT_PID: string;
 	export const GTK_RC_FILES: string;
+	export const NO_AT_BRIDGE: string;
 	export const npm_config_globalconfig: string;
 	export const XCURSOR_SIZE: string;
 	export const GPG_TTY: string;
@@ -74,6 +76,7 @@ declare module '$env/static/private' {
 	export const _: string;
 	export const XAUTHORITY: string;
 	export const LS_OPTIONS: string;
+	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const XKEYSYMDB: string;
 	export const GTK2_RC_FILES: string;
 	export const XNLSPATH: string;
@@ -88,6 +91,7 @@ declare module '$env/static/private' {
 	export const KONSOLE_DBUS_SESSION: string;
 	export const PROFILEHOME: string;
 	export const OSTYPE: string;
+	export const GIT_ASKPASS: string;
 	export const XDG_SEAT_PATH: string;
 	export const QT_IM_SWITCHER: string;
 	export const LESS_ADVANCED_PREPROCESSOR: string;
@@ -95,11 +99,13 @@ declare module '$env/static/private' {
 	export const KONSOLE_VERSION: string;
 	export const MANAGERPID: string;
 	export const INIT_CWD: string;
+	export const CHROME_DESKTOP: string;
 	export const XSESSION_IS_UP: string;
 	export const KDE_SESSION_UID: string;
 	export const npm_lifecycle_script: string;
 	export const MOZ_GMP_PATH: string;
 	export const NVM_DIR: string;
+	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 	export const npm_config_npm_version: string;
 	export const LESSCLOSE: string;
 	export const XDG_SESSION_CLASS: string;
@@ -111,6 +117,7 @@ declare module '$env/static/private' {
 	export const XAUTHLOCALHOSTNAME: string;
 	export const LESSOPEN: string;
 	export const USER: string;
+	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const COLORFGBG: string;
 	export const KDE_SESSION_VERSION: string;
 	export const MORE: string;
@@ -129,16 +136,19 @@ declare module '$env/static/private' {
 	export const XDG_RUNTIME_DIR: string;
 	export const DEBUGINFOD_URLS: string;
 	export const npm_package_json: string;
+	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const QT_AUTO_SCREEN_SCALE_FACTOR: string;
 	export const JOURNAL_STREAM: string;
 	export const MANPATHISSET: string;
 	export const XCURSOR_THEME: string;
 	export const XDG_DATA_DIRS: string;
 	export const KDE_FULL_SESSION: string;
+	export const GDK_BACKEND: string;
 	export const npm_config_noproxy: string;
 	export const VENDOR: string;
 	export const PATH: string;
 	export const npm_config_node_gyp: string;
+	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
 	export const PROFILEREAD: string;
 	export const npm_config_global_prefix: string;
@@ -148,7 +158,8 @@ declare module '$env/static/private' {
 	export const HOSTTYPE: string;
 	export const npm_node_execpath: string;
 	export const LESSKEY: string;
-	export const NODE_ENV: string;
+	export const TERM_PROGRAM: string;
+	export const KONSOLE_DBUS_WINDOW: string;
 }
 
 /**
@@ -189,6 +200,7 @@ declare module '$env/dynamic/private' {
 		LESS: string;
 		XDG_SESSION_PATH: string;
 		NVM_INC: string;
+		TERM_PROGRAM_VERSION: string;
 		GTK_IM_MODULE: string;
 		MACHTYPE: string;
 		G_BROKEN_FILENAMES: string;
@@ -209,6 +221,7 @@ declare module '$env/dynamic/private' {
 		DESKTOP_SESSION: string;
 		SSH_AGENT_PID: string;
 		GTK_RC_FILES: string;
+		NO_AT_BRIDGE: string;
 		npm_config_globalconfig: string;
 		XCURSOR_SIZE: string;
 		GPG_TTY: string;
@@ -226,6 +239,7 @@ declare module '$env/dynamic/private' {
 		_: string;
 		XAUTHORITY: string;
 		LS_OPTIONS: string;
+		VSCODE_GIT_ASKPASS_NODE: string;
 		XKEYSYMDB: string;
 		GTK2_RC_FILES: string;
 		XNLSPATH: string;
@@ -240,6 +254,7 @@ declare module '$env/dynamic/private' {
 		KONSOLE_DBUS_SESSION: string;
 		PROFILEHOME: string;
 		OSTYPE: string;
+		GIT_ASKPASS: string;
 		XDG_SEAT_PATH: string;
 		QT_IM_SWITCHER: string;
 		LESS_ADVANCED_PREPROCESSOR: string;
@@ -247,11 +262,13 @@ declare module '$env/dynamic/private' {
 		KONSOLE_VERSION: string;
 		MANAGERPID: string;
 		INIT_CWD: string;
+		CHROME_DESKTOP: string;
 		XSESSION_IS_UP: string;
 		KDE_SESSION_UID: string;
 		npm_lifecycle_script: string;
 		MOZ_GMP_PATH: string;
 		NVM_DIR: string;
+		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 		npm_config_npm_version: string;
 		LESSCLOSE: string;
 		XDG_SESSION_CLASS: string;
@@ -263,6 +280,7 @@ declare module '$env/dynamic/private' {
 		XAUTHLOCALHOSTNAME: string;
 		LESSOPEN: string;
 		USER: string;
+		VSCODE_GIT_IPC_HANDLE: string;
 		COLORFGBG: string;
 		KDE_SESSION_VERSION: string;
 		MORE: string;
@@ -281,16 +299,19 @@ declare module '$env/dynamic/private' {
 		XDG_RUNTIME_DIR: string;
 		DEBUGINFOD_URLS: string;
 		npm_package_json: string;
+		VSCODE_GIT_ASKPASS_MAIN: string;
 		QT_AUTO_SCREEN_SCALE_FACTOR: string;
 		JOURNAL_STREAM: string;
 		MANPATHISSET: string;
 		XCURSOR_THEME: string;
 		XDG_DATA_DIRS: string;
 		KDE_FULL_SESSION: string;
+		GDK_BACKEND: string;
 		npm_config_noproxy: string;
 		VENDOR: string;
 		PATH: string;
 		npm_config_node_gyp: string;
+		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
 		PROFILEREAD: string;
 		npm_config_global_prefix: string;
@@ -300,7 +321,8 @@ declare module '$env/dynamic/private' {
 		HOSTTYPE: string;
 		npm_node_execpath: string;
 		LESSKEY: string;
-		NODE_ENV: string;
+		TERM_PROGRAM: string;
+		KONSOLE_DBUS_WINDOW: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}

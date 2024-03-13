@@ -10,8 +10,8 @@ type EnsureDefined<T> = T extends null | undefined ? {} : T;
 type OptionalUnion<U extends Record<string, any>, A extends keyof U = U extends U ? keyof U : never> = U extends unknown ? { [P in Exclude<A, keyof U>]?: never } & U : never;
 export type Snapshot<T = any> = Kit.Snapshot<T>;
 type PageParentData = EnsureDefined<LayoutData>;
-type LayoutRouteId = RouteId | "/" | "/(pages)/[noorlow]-code/[[slug]]" | "/(pages)/about" | "/(pages)/contact/[[service]]" | "/(pages)/services/data-scraping" | "/(pages)/services/greenfield-software-development" | "/(pages)/services/low-code-automation" | "/(pages)/services/low-code-consulting" | "/(pages)/services/low-code-development" | "/(pages)/services/mvp-development" | "/(pages)/services/no-code-automation" | "/(pages)/services/no-code-consulting" | "/(pages)/services/open-source-consulting" | "/(pages)/services/poc-development" | "/(pages)/services/robotic-process-automation" | "/(pages)/services/slc-development" | null
-type LayoutParams = RouteParams & { noorlow?: string,slug?: string,service?: string }
+type LayoutRouteId = RouteId | "/" | "/(pages)/about" | "/(pages)/contact/[[service]]" | null
+type LayoutParams = RouteParams & { service?: string }
 type LayoutServerParentData = EnsureDefined<{}>;
 type LayoutParentData = EnsureDefined<{}>;
 
