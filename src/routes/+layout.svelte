@@ -40,11 +40,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- NOTE: Why >> <div style="display: contents" class="h-full overflow-hidden"> -->
 <svelte:window bind:innerWidth={screenWidth} />
-
+<div class="layout">
 <Navbar bind:currentMenu bind:showMobileMenu />
 <div id="appShell" class:brightness-25={blurDesktop || blurMobile}>
-  <main id="pageSlot">
+  <main id="pageSlot" class="content">
     <slot />
   </main>
 </div>
 <Footer />
+</div>
