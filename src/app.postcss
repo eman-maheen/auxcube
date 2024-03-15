@@ -263,8 +263,11 @@ footer {
     @apply mb-10 ms-10 bannerText;
   }
 }
+.numberedCircleLong {
+  @apply absolute flex text-black items-center justify-center w-8 h-12 bg-surface-dark-200 rounded-full -start-4;
+}
 .numberedCircle {
-  @apply absolute flex text-black items-center justify-center w-8 h-12 bg-gray-200 rounded-full -start-4;
+  @apply flex text-black items-center justify-center w-8 h-8 bg-gray-200 rounded-full
 }
 .verticalText {
   @apply md:transform md:-rotate-90 flex items-center md:flex-col md:w-1/5;
@@ -302,8 +305,32 @@ footer {
 .wrapperPartnersRightCol {
   @apply order-first md:order-last flex-1 md:text-end md:ml-10 text-center
 }
+.wrapperClientsRightCol {
+  @apply flex-1 md:text-start md:ml-10
+}
 .partnerLogo {
   @apply object-contain filter grayscale invert
+}
+.pillBox {
+  @apply flex border px-2 rounded-full items-center;
+}
+.clientSlider {
+  @apply flex md:mx-5 space-x-5 justify-center items-center
+}
+.clientSliderBtn {
+  @apply flex md:flex-1 items-center justify-center w-8 h-8 my-5
+}
+.prevBtn {
+  @apply clientSliderBtn -rotate-90
+}
+.nextBtn {
+  @apply clientSliderBtn rotate-90
+}
+.activeBtn {
+  @apply bg-surface-dark-800
+}
+.disabledBtn {
+  @apply bg-surface-dark-200
 }
 .mobileNav {
   @apply md:hidden flex flex-col h-screen max-w-[90%] w-full top-[var(--nav-height)] absolute z-50 bg-base-300 bg-transparent/80  overflow-y-auto whitespace-nowrap;

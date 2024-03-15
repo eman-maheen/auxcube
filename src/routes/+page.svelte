@@ -4,6 +4,7 @@
   import HolisticConsulting from '$lib/components/pageSections/HolisticConsulting.svelte';
   import EngagementModels from '$lib/components/pageSections/EngagementModels.svelte';
   import Partnerships from '$lib/components/pageSections/Partnerships.svelte';
+    import Clients from '$lib/components/pageSections/Clients.svelte';
 </script>
 
 <svelte:head>
@@ -15,3 +16,4 @@
 <HolisticConsulting />
 <EngagementModels />
 <Partnerships />
+<Clients />

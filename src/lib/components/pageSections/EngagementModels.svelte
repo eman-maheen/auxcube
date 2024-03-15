@@ -44,7 +44,7 @@
     {#each models as model, index}
       <ol class="ordered">
         <li>
-          <span class="numberedCircle">
+          <span class="numberedCircleLong">
             {index + 1}
           </span>
           <TitleContentBlock
