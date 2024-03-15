@@ -33,12 +33,6 @@ function computeUrls(root: NavLink, path: string = "") {
     root.slug = `${titleToSlug(root.title)}`;
     root.url = `${path}/${root.slug}`;
 
-    if (!root.children) {
-        root.children = [];
-    }
-    for (const child of root.children) {
-        computeUrls(child, root.url);
-    }
     return root;
 }
 export const siteNav: Array<NavLink> = siteMap.map(root => computeUrls(root, ""));
