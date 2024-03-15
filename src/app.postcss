@@ -221,13 +221,13 @@ footer {
   @apply hero md:h-screen;
 }
 .heroContent {
-  @apply hero-content flex flex-col md:flex-row w-full;
+  @apply hero-content responsiveFullWidthRow space-x-5;
 }
 .heroTopContent {
   @apply flex flex-col items-center text-center mb-5;
 }
 .heroMiddleContent {
-  @apply flex flex-col md:text-start px-2
+  @apply flex flex-col md:text-start
 }
 .heroMiddleHeading{
   @apply whitespace-nowrap leading-relaxed
@@ -247,14 +247,40 @@ footer {
 .unordered {
   @apply m-5 px-5 md:leading-10 text-start columns-2;
   li {
-    @apply md:whitespace-nowrap leading-tight mb-5;
+    @apply noWrap leading-tight mb-5;
   }
 }
+.verticalText {
+  @apply md:transform md:-rotate-90 flex items-center md:flex-col md:w-1/5
+}
+.topAlignedText {
+  @apply md:text-start pt-0
+}
+.noWrap {
+  @apply md:whitespace-nowrap
+}
+.responsiveFullWidthRow {
+  @apply flex flex-col md:flex-row w-full
+}
+.wrapperLeftCol{
+  @apply flex flex-col bannerText border-r-2 border-zinc-700 md:px-5
 
+}
+.wrapperRightCol{
+  @apply bannerText md:w-3/5 items-center
+}
 /* TODO: This section contains only the colors for all elements - see if this is a good approach or we need to merge these with the above classes */
 
 /* TODO: This section contains only the gaps for all elements - see if this is a good approach or we need to merge these with the above classes */
-
+.wrapperTitleContentBlock {
+  @apply text-start mb-10
+}
+.flexStart{
+  @apply flex items-start
+}
+.flexCol{
+ @apply flex flex-col
+}
 .mobileNav {
   @apply md:hidden flex flex-col h-screen max-w-[90%] w-full top-[var(--nav-height)] absolute z-50 bg-base-300 bg-transparent/80  overflow-y-auto whitespace-nowrap;
 }

@@ -1,6 +1,7 @@
 <script lang="ts">
   import HeroTop from '$lib/components/pageSections/HeroTop.svelte';
   import HeroMiddle from '$lib/components/pageSections/HeroMiddle.svelte';
+  import HolisticConsulting from '$lib/components/pageSections/HolisticConsulting.svelte';
 </script>
 
 <svelte:head>
@@ -9,3 +10,4 @@
 </svelte:head>
 <HeroTop />
 <HeroMiddle />
+<HolisticConsulting />
