@@ -1,7 +1,11 @@
 <script lang="ts">
+  import HeroTop from '$lib/components/pageSections/HeroTop.svelte';
+  import HeroMiddle from '$lib/components/pageSections/HeroMiddle.svelte';
 </script>
 
 <svelte:head>
   <title>Auxcube | Build Outside The Box</title>
   <meta name="description" content="Auxcube" />
 </svelte:head>
+<HeroTop />
+<HeroMiddle />

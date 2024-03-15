@@ -47,7 +47,7 @@ body {
 }
 
 h1 {
-  @apply text-4xl lg:text-6xl;
+  @apply text-5xl lg:text-7xl;
 }
 h2 {
   @apply text-2xl lg:text-4xl;
@@ -139,7 +139,7 @@ header {
 }
 
 .content {
-  @apply text-center md:px-[calc(var(--nav-height)*2.25)] p-5;
+  @apply text-center md:px-[calc(var(--nav-height)*2.25)] p-5 leading-loose;
 }
 
 .page {
@@ -218,19 +218,37 @@ footer {
 }
 
 .heroMain {
-  @apply hero h-screen bg-gradient-to-b from-primary-cta-base to-surface-dark-900;
+  @apply hero md:h-screen;
 }
 .heroContent {
-  @apply hero-content flex-col-reverse lg:flex-row mx-auto w-full;
+  @apply hero-content flex flex-col md:flex-row w-full;
 }
-.heroTextBanner {
-  @apply flex flex-col justify-self-end items-center lg:items-start lg:justify-start text-center w-4/5 lg:w-1/2;
+.heroTopContent {
+  @apply flex flex-col items-center text-center mb-5;
+}
+.heroMiddleContent {
+  @apply flex flex-col md:text-start px-2
+}
+.heroMiddleHeading{
+  @apply whitespace-nowrap leading-relaxed
 }
 .bannerHeading {
-  @apply flex flex-wrap mb-5 lg:text-start;
+  @apply mb-5 font-bold uppercase;
+}
+.bannerSubheading {
+  @apply flex tracking-widest uppercase;
+}
+.bannerText {
+  @apply flex my-5;
 }
 .heroMiddle {
-  @apply hero h-full mx-auto bg-gradient-to-b from-primary-cta-base to-surface-dark-900;
+  @apply hero h-full mx-auto;
+}
+.unordered {
+  @apply m-5 px-5 md:leading-10 text-start columns-2;
+  li {
+    @apply md:whitespace-nowrap leading-tight mb-5;
+  }
 }
 
 /* TODO: This section contains only the colors for all elements - see if this is a good approach or we need to merge these with the above classes */
@@ -293,4 +311,8 @@ footer {
 }
 .mobileNav {
   @apply p-4;
+}
+
+.emphasize {
+  @apply text-primary
 }
