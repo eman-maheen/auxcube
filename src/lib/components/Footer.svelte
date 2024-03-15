@@ -1,61 +1,74 @@
 <script lang="ts">
-  import { services } from '$lib/content/site';
-  import { titleToSlug } from '$lib/content/site';
-  import FooterSocialLinks from './FooterSocialLinks.svelte';
-    import NavLogo from './NavLogo.svelte';
-  // FIXME: Add real Industries
+  import { services } from "$lib/content/site";
+  import { titleToSlug } from "$lib/content/site";
+  import FooterSocialLinks from "./FooterSocialLinks.svelte";
+  import NavLogo from "./NavLogo.svelte";
+  const quickLinks = ["Skills", "Services", "Build My Team", "Career", "About"];
+  const legalLinks = ["Privacy Policy", "Cookie Policy", "Refund Policy"];
 </script>
 
 <footer>
-  <div class="footerStrip">
-    <div class="footerStripSection">
-      <FooterSocialLinks />
-      <div class="flex flex-row flex-wrap justify-center">
-        <!-- <a href="/contact" aria-label="Contact">Contact</a>
-        <a href="/faq" aria-label="FAQ">FAQ</a>
-        <a href="/privacy-policy" aria-label="Privacy Policy">Privacy Policy</a>
-        <a href="/rfp" aria-label="Submit RFP">Submit RFP</a> -->
-      </div>
-      <div class="flex flex-row justify-center lg:justify-end text-center">
-        &copy; LowcodeN
-      </div>
+  <div class="md:px-10 md:mr-10 px-4">
+  <div class="flex md:flex-row justify-between items-center mt-10 md:mr-20">
+    <h2 class="bannerHeading ">No-Obligation</h2>
+      <a href="https://auxcubed.com/" class="btn btn-primary">
+        Join Us
+        <img src="/icons/arrow-up-right.svg" alt="Join Us" />
+      </a>
     </div>
-  </div>
+  <h1 class="bannerHeading">Discovery Consultation</h1>
+</div>
+
   <div class="footerSection justify-items-start justify-start">
+    <div class="footerColumn md:col-span-2">
+      <p>
+        We offer a non-obligation discovery consultation session to understand
+        the problem you are working on and to chart out the various ways that
+        Auxcube can be of assistance. PLease use the Contact form or email us at <strong
+          ><a href="mailto:connect@auxcube.com">connect@auxcube.com</a></strong
+        > to initiate a discussion on your engineering needs.
+      </p>
+    </div>
     <div class="footerColumn">
-      <h3 class="py-4">Services</h3>
-      {#each services?.children ?? [] as link}
-        <a href={link.publishPage ? link.url : `/contact/${link.slug}`} aria-label={link.title}>
-          <div class="footerLink">
-            <div class="bg-contain mr-1.5 group bg-[url('/images/on.svg')] w-4 h-4" 
-            />
-            {link.title}
-          </div>
+      <h3 class="py-4">Quick Links</h3>
+      {#each quickLinks as link}
+        <a href={"/" + titleToSlug(link)} aria-label={link}>
+          <p class="footerLink">
+            {link}
+          </p>
         </a>
       {/each}
     </div>
     <div class="footerColumn">
-      <h3 class="py-4">Industries</h3>
-      {#each ['Healthcare', 'Transport', 'Real Estate', 'Law'] as link}
-        <!-- <a href={'/' + titleToSlug(link)} aria-label={link}> -->
-          <div class="footerLink">
-            <div class="bg-contain mr-1.5 group bg-[url('/images/on.svg')] w-4 h-4" />
+      <h3 class="py-4">Legal</h3>
+      {#each legalLinks as link}
+        <a href={"/" + titleToSlug(link)} aria-label={link}>
+          <p class="footerLink">
             {link}
-          </div>
-        <!-- </a> -->
+          </p>
+        </a>
       {/each}
     </div>
     <div class="footerColumn">
-      <img src="/images/logo.svg" alt="LowcodeN Logo" class="py-4 object-contain w-1/2" width="240" height="120"/>
-      {#each ['Contact', 'About'] as link} 
-      <!-- , 'Cookie Policy','Careers' -->
-        <a href={'/' + titleToSlug(link)} aria-label={link}>
-          <div class="footerLink">
-            <div class="bg-contain mr-1.5 group bg-[url('/images/on.svg')] w-4 h-4" />
-            {link}
-          </div>
-        </a>
-        {/each}
+      <h3 class="py-4">Contact</h3>
+        <p class="footerLink">connect@auxcube.com</p>
+    
+        <p class="footerLink">+1 408 757 0560</p>
+    
+        <p class="footerLink">
+          12520 Pinkham Cr Road, Rexford, <br /> Montana 59930, USA
+        </p>
+    
+    </div>
+
+    <div class="footerColumn  items-center">
+      <a
+        href="#top"
+        class=" flex flex-row bg-gray-200 items-center justify-center rounded-full w-8 h-8 md:h-16 my-5"
+      >
+        <img src="/icons/arrow-up.svg" alt="Go to Top" />
+      </a>
+      <FooterSocialLinks />
     </div>
   </div>
 </footer>
