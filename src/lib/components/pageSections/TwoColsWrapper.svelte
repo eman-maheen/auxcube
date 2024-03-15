@@ -29,7 +29,7 @@
       <slot name="leftColumn" />
     </div>
     <div class="wrapperRightCol">
-      <div class={imageAligned === "left" ?"rightCol": "rightCol ml-20"}>
+      <div class={imageAligned === "left" ?"contentRightCol": "contentRightCol ml-20"}>
         <slot name="rightColumn" />
         {#if isConsultingComponent}
           <div class="ml-0 md:mr-10"><slot name="rightColumnImage" /></div>

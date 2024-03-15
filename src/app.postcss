@@ -284,13 +284,10 @@ footer {
 .wrapperRightCol {
   @apply bannerText md:w-3/5 items-center;
 }
-/* TODO: This section contains only the colors for all elements - see if this is a good approach or we need to merge these with the above classes */
-
-/* TODO: This section contains only the gaps for all elements - see if this is a good approach or we need to merge these with the above classes */
 .wrapperTitleContentBlock {
   @apply md:text-start mb-10 text-center;
 }
-.rightCol {
+.contentRightCol {
   @apply flexCol md:self-start;
 }
 .flexStart {
@@ -298,6 +295,15 @@ footer {
 }
 .flexCol {
   @apply flex flex-col;
+}
+.wrapperPartnersLogos {
+ @apply flex flex-wrap self-end justify-center gap-10
+}
+.wrapperPartnersRightCol {
+  @apply order-first md:order-last flex-1 md:text-end md:ml-10 text-center
+}
+.partnerLogo {
+  @apply object-contain filter grayscale invert
 }
 .mobileNav {
   @apply md:hidden flex flex-col h-screen max-w-[90%] w-full top-[var(--nav-height)] absolute z-50 bg-base-300 bg-transparent/80  overflow-y-auto whitespace-nowrap;
