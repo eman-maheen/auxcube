@@ -39,13 +39,13 @@
   $: isLeftDisabled = currentClientIndex === 0;
 </script>
 
-<div class="heroMain flex md:flex-row mx-auto text-end">
+<div class="heroMain flex md:flex-row mx-auto md:text-end">
   <div class="heroContent">
-    <div class="flex-1 text-start ml-10">
+    <div class="flex-1 md:text-start md:ml-10">
       <h1 class="mb-5">
         We Build<br /><span class="text-primary">{" Values"}</span>
       </h1>
-      <p>{clients[currentClientIndex].review}</p>
+      <p class="text-justify">{clients[currentClientIndex].review}</p>
       <div class="flex md:flex-row flex-col my-5">
         <div class="pillBox flex-1 flex">
           <div
@@ -53,13 +53,13 @@
           >
             {currentClientIndex + 1 + "/" + clients.length}
           </div>
-          <div class="pl-5 flex-1">
+          <div class="md:pl-5 flex-1">
             {clients[currentClientIndex].name}<br />{clients[currentClientIndex]
               .position}
           </div>
         </div>
 
-        <div class="flex flex-row mx-5 space-x-5 justify-center items-center">
+        <div class="flex flex-row md:mx-5 space-x-5 justify-center items-center">
           <button
             on:click={prevClient}
             disabled={isLeftDisabled}

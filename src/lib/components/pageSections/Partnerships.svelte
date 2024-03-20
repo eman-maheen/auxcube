@@ -22,8 +22,7 @@
         />
       {/each}
     </div>
-
-    <div class="flex-1 text-end ml-10">
+    <div class="order-first md:order-last flex-1 md:text-end md:ml-10 text-justify">
       <h1 class="mb-5">
         We Build<br /><span class="text-primary">{" Partnerships"}</span>
       </h1>

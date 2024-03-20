@@ -57,8 +57,8 @@
     <img src="/images/cubes.png" alt="cubes" />
   </div>
 
-  <div class="transform -rotate-90 flex flex-col md:w-1/5 items-center">
-    <h1 class="whitespace-nowrap">
+  <div class="md:transform md:-rotate-90 flex md:flex-col md:w-1/5 items-center">
+    <h1 class="md:whitespace-nowrap">
       Holistic Software<br /><span class="text-primary">{" Consulting"}</span>
     </h1>
   </div>
