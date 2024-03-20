@@ -21,7 +21,7 @@
       <h2 class="bannerHeading">
         We deliver<span class="text-primary">{" Solutions"}</span>
       </h2>
-      <img src="/images/cubes.png" height="h-screen" alt="cubes" />
+      <img src="/images/cubes.webp" height="h-screen" alt="cubes" />
     </div>
     <div class="flex flex-col flex-1 self-start text-start">
         We transform your technical challenges into opportunities. Teaming up

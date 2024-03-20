@@ -82,7 +82,7 @@
       </div>
     </div>
     <div class="flex-1">
-        <img src="/images/cubes.png" alt="cubes" />
+        <img src="/images/cubes.webp" alt="cubes" />
     </div>
   </div>
 </div>

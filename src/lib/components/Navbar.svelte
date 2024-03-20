@@ -8,7 +8,7 @@
   export let showMobileMenu = false;
 </script>
 
-<header role="navigation">
+<header >
   <div class="navLogoBox">
     <button
       tabindex="0"

@@ -66,6 +66,6 @@
       worrying about software engineering, with our flexible engagement models,
       you choose exactly how we can help you.
     </p>
-    <img src="/images/cubes.png" alt="cubes" />
+    <img src="/images/cubes.webp" alt="cubes" />
   </div>
 </HeroLayout>

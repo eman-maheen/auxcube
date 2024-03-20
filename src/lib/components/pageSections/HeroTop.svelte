@@ -12,7 +12,7 @@
     </p>
     <a href="https://auxcubed.com/" class="btn btn-primary flex flex-row">
       Join Us
-      <img src="/icons/arrow-up-right.svg" alt="Join Us" />
+      <img src="/icons/arrow-up-right.svg" alt="Link to apply at Auxcubed" />
     </a>
   </div>
 </div>

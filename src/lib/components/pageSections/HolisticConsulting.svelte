@@ -54,7 +54,7 @@
       through sharing insights and recommendations for improvement and
       optimization.
     </p>
-    <img src="/images/cubes.png" alt="cubes" />
+    <img src="/images/cubes.webp" alt="cubes" />
   </div>
 
   <div class="md:transform md:-rotate-90 flex md:flex-col md:w-1/5 items-center">

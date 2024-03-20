@@ -53,6 +53,6 @@
     <slot />
   </main>
 
-  <img src="/images/pexels.jpg" alt="pexels" />
+  <img src="/images/pexels.webp" alt="pexels" />
   <Footer />
 </div>

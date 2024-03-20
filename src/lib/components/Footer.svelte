@@ -9,15 +9,15 @@
 
 <footer>
   <div class="md:px-10 md:mr-10 px-4">
-  <div class="flex md:flex-row justify-between items-center mt-10 md:mr-20">
-    <h2 class="bannerHeading ">No-Obligation</h2>
+    <div class="flex md:flex-row justify-between items-center mt-10 md:mr-20">
+      <h2 class="bannerHeading">No-Obligation</h2>
       <a href="https://auxcubed.com/" class="btn btn-primary">
         Join Us
-        <img src="/icons/arrow-up-right.svg" alt="Join Us" />
+        <img src="/icons/arrow-up-right.svg" alt="Link to apply at Auxcubed" />
       </a>
     </div>
-  <h1 class="bannerHeading">Discovery Consultation</h1>
-</div>
+    <h2 class="text-5xl font-bold">Discovery Consultation</h2>
+  </div>
 
   <div class="footerSection justify-items-start justify-start">
     <div class="footerColumn md:col-span-2">
@@ -51,17 +51,16 @@
     </div>
     <div class="footerColumn">
       <h3 class="py-4">Contact</h3>
-        <p class="footerLink">connect@auxcube.com</p>
-    
-        <p class="footerLink">+1 408 757 0560</p>
-    
-        <p class="footerLink">
-          12520 Pinkham Cr Road, Rexford, <br /> Montana 59930, USA
-        </p>
-    
+      <p class="footerLink">connect@auxcube.com</p>
+
+      <p class="footerLink">+1 408 757 0560</p>
+
+      <p class="footerLink">
+        12520 Pinkham Cr Road, Rexford, <br /> Montana 59930, USA
+      </p>
     </div>
 
-    <div class="footerColumn  items-center">
+    <div class="footerColumn items-center">
       <a
         href="#top"
         class=" flex flex-row bg-gray-200 items-center justify-center rounded-full w-8 h-8 md:h-16 my-5"
