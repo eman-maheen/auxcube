@@ -1,0 +1,2523 @@
+{
+    "root": {
+        "data": {
+            "id": "cvqdheexyh40",
+            "created": 1695479954620,
+            "text": "LCNC"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cvqdi8q8gew0",
+                    "created": 1695480020606,
+                    "text": "No Code"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvqk3bkaaog0",
+                            "created": 1695498599084,
+                            "text": "What is No Code?"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqk3du4yhs0",
+                                    "created": 1695498604033,
+                                    "text": "NCAPs provide templates and tools to build apps without coding knowledge"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqtjhgo6oo0",
+                            "created": 1695525255742,
+                            "text": "Shadow IT"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvqdif0yw600",
+                    "created": 1695480034316,
+                    "text": "Low Code",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvqid5z8rag0",
+                            "created": 1695493728349,
+                            "text": "What is Low Code?",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqidwt2zog0",
+                                    "created": 1695493786750,
+                                    "text": "Intiutive and visual GUI interfaces for programming",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqieb21hy80",
+                                            "created": 1695493817767,
+                                            "text": "flowchart to create code"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqirbc1cmo0",
+                                            "created": 1695494837105,
+                                            "text": "logic"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqj302ols00",
+                                            "created": 1695495752965,
+                                            "text": "drag-and-drop functionality"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqj85k9t0g0",
+                                            "created": 1695496156733,
+                                            "text": "composability - reusable components"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqml687k7k0",
+                                            "created": 1695505640245,
+                                            "text": "leverage pre-built components"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqie05knxc0",
+                                    "created": 1695493794036,
+                                    "text": "RAD - develop at fast rate"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqie3rm8nk0",
+                                    "created": 1695493801899,
+                                    "text": "reduce traditional programming efforts",
+                                    "layout_filetree-down_offset": {
+                                        "x": 8.74999973053741,
+                                        "y": 4.999999846021296
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqie7yy7ds0",
+                                    "created": 1695493811049,
+                                    "text": "No line-by-line code"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqiqzu0wjc0",
+                                    "created": 1695494812072,
+                                    "text": "ten times faster??"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqiri496ls0",
+                                    "created": 1695494851872,
+                                    "text": "Simple to complex apps to meet BD requirements"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqj2lynbk00",
+                                    "created": 1695495722246,
+                                    "text": "antagonizes the norms of traditional SD"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqlv1pd1ew0",
+                                    "created": 1695503592930,
+                                    "text": "phrases",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqlv3oubuw0",
+                                            "created": 1695503597253,
+                                            "text": "game-changers"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqlvk14ooo0",
+                                            "created": 1695503632823,
+                                            "text": "democratize software development"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqlvovezf40",
+                                            "created": 1695503643362,
+                                            "text": "expedite transformation"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqlx0qvlnk0",
+                                            "created": 1695503747573,
+                                            "text": "Strategic tool"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqm5xouz2w0",
+                                            "created": 1695504446198,
+                                            "text": "harness the power"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqms2ctggo0",
+                                            "created": 1695506180365,
+                                            "text": "compelling from a tactical and strategic pov"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqms7b1m600",
+                                            "created": 1695506191142,
+                                            "text": "bypasses complicated programming languages"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqo4tcftag0",
+                                            "created": 1695510000595,
+                                            "text": "Liberate your org fromt he burdens of custom application dev and unleash teh power of business innovation"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqo8nj9t3s0",
+                                            "created": 1695510301404,
+                                            "text": "you can be done by the time your competitors are setting up a meeting"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqo8vsyh140",
+                                            "created": 1695510319404,
+                                            "text": "separate yourself from the rest of the pack"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqo92ccsfc0",
+                                            "created": 1695510333638,
+                                            "text": "introduce new disruptive products"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqpjsnql3c0",
+                                            "created": 1695513995674,
+                                            "text": "balanced middle ground between manual coding and No Code "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqppesl2mw0",
+                                            "created": 1695514435677,
+                                            "text": "hyperautomation strategic trend"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqmkvqau7s0",
+                                    "created": 1695505617394,
+                                    "text": "self-service"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqidafwazk0",
+                            "created": 1695493738064,
+                            "text": "Low Code features",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqkw9lc8340",
+                                    "created": 1695500867355,
+                                    "text": "No Code development",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqiefemxv40",
+                                            "created": 1695493827235,
+                                            "text": "Visual modeling"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqiehgsfoo0",
+                                            "created": 1695493831719,
+                                            "text": "drag-and-drop interfaces"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqmuqw0gkw0",
+                                            "created": 1695506390497,
+                                            "text": "click-to-build apps and workflows"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqkwvht4yo0",
+                                    "created": 1695500915031,
+                                    "text": "Workflow templates",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqkx7uguo00",
+                                            "created": 1695500941917,
+                                            "text": "businesses face common problems"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqkx0t2xf40",
+                                            "created": 1695500926596,
+                                            "text": "can tweak to their needs"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqkx4kj69c0",
+                                            "created": 1695500934786,
+                                            "text": "faster and efficient"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqienlwtrc0",
+                                    "created": 1695493845090,
+                                    "text": "mobility"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqiertaa2g0",
+                                    "created": 1695493854243,
+                                    "text": "Security and Privacy"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqietreuvs0",
+                                    "created": 1695493858483,
+                                    "text": "Scalability"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqievdfayo0",
+                                    "created": 1695493861991,
+                                    "text": "Out-of-the-Box Functionality"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqniql0oyo0",
+                                    "created": 1695508270572,
+                                    "text": "Cross-platform Functionality"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqiq6en41s0",
+                                    "created": 1695494748015,
+                                    "text": "Access control",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqk8eftz9k0",
+                                            "created": 1695498997166,
+                                            "text": "Granularity"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqkei3x2600",
+                                    "created": 1695499475337,
+                                    "text": "Automations"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqkqvrozq80",
+                                    "created": 1695500445443,
+                                    "text": "Extensibility",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqkvwicl2g0",
+                                            "created": 1695500838876,
+                                            "text": "allow adding or editing code if necessary"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqkvxymia00",
+                                            "created": 1695500842037,
+                                            "text": "still benefiting from the streamlined tools and automations"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqky6ohzqo0",
+                                    "created": 1695501017744,
+                                    "text": "Application deployment",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqky9oim3c0",
+                                            "created": 1695501024275,
+                                            "text": "deploy on cloud services"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqkyctsukw0",
+                                            "created": 1695501031125,
+                                            "text": "Application deployment - expedites the dev cycle"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvql07j26sg0",
+                                    "created": 1695501176320,
+                                    "text": "Application lifecycle management",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvql0asecsw0",
+                                            "created": 1695501183415,
+                                            "text": "Plan/Build/Test/Deploy"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvql0maxzk00",
+                                    "created": 1695501208481,
+                                    "text": "White labeling"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvql0pv37z40",
+                                    "created": 1695501216230,
+                                    "text": "Forms"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqmuxlk1w00",
+                                    "created": 1695506405102,
+                                    "text": "Data-centricity"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqmvnqt1fk0",
+                                    "created": 1695506462016,
+                                    "text": "Integrations",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqmvuoxp800",
+                                            "created": 1695506477140,
+                                            "text": "compatibility with data sources and internal and external systems"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqmw6eq9hc0",
+                                    "created": 1695506502645,
+                                    "text": "Governance"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqmwnic4740",
+                                    "created": 1695506539868,
+                                    "text": "AI"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqmwqebvdc0",
+                                    "created": 1695506546156,
+                                    "text": "Analytics",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqmwvf64ps0",
+                                            "created": 1695506557091,
+                                            "text": "out-of-the-box reporting and dashboards"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqn19sc8o00",
+                                    "created": 1695506901819,
+                                    "text": "Consistency"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqk6b9xt1s0",
+                            "created": 1695498833551,
+                            "text": "Who can benefit from Low Code?",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqk6jxba2o0",
+                                    "created": 1695498852378,
+                                    "text": "Large enterprises"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqk6ukshrs0",
+                                    "created": 1695498875566,
+                                    "text": "Limited resources"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqk6q1f2dk0",
+                                            "created": 1695498865687,
+                                            "text": "Solopreneurs"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqk6opghnk0",
+                                            "created": 1695498862787,
+                                            "text": "Startups"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqk6h04sig0",
+                                            "created": 1695498846019,
+                                            "text": "Small businesses"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqkrelh9000",
+                                    "created": 1695500486426,
+                                    "text": "Developers"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvql5gd4wkw0",
+                                            "created": 1695501587374,
+                                            "text": "avoid reinventing wheels"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvql5295mo80",
+                                    "created": 1695501556658,
+                                    "text": "Non-devs"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvql56yfj600",
+                                            "created": 1695501566894,
+                                            "text": "No Code features - superset of No Code"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqidgaqkm00",
+                            "created": 1695493750812,
+                            "text": "Low Code benefits",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqif2ko8fk0",
+                                    "created": 1695493877666,
+                                    "text": "Accelerate digital innovation and transformation"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqif6u0t280",
+                                    "created": 1695493886939,
+                                    "text": "Reduce current IT backlog"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqif93lcqo0",
+                                    "created": 1695493891871,
+                                    "text": "Increase responsiveness"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqifflkuuo0",
+                                    "created": 1695493906019,
+                                    "text": "Minimize hand-coding efforts"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqift6p4kg0",
+                                    "created": 1695493935595,
+                                    "text": "Less Moving Parts - Enable citizen developers to improve internal processes directly"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqkfg2vqzk0",
+                                    "created": 1695499549285,
+                                    "text": "Control - Users can alter functionality"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqo2ffolc00",
+                                    "created": 1695509813588,
+                                    "text": "Single Source-of-truth"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqscyqrjj40",
+                                            "created": 1695521923699,
+                                            "text": "Tool consolidation rather than niche tools"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqifkxhk0o0",
+                                    "created": 1695493917623,
+                                    "text": "Team Collaboration - More people can contribute to the development process",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvql2p7oc0w0",
+                                            "created": 1695501371542,
+                                            "text": "Seamless and less frustrating collaboration"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvql2tkrwgg0",
+                                            "created": 1695501381041,
+                                            "text": "Stay on the same page"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqj8p7mrag0",
+                                            "created": 1695496199505,
+                                            "text": "Cross-silo collaboration for business activities"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvql49tifds0",
+                                            "created": 1695501494762,
+                                            "text": "Understand the business in a new light"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqs734yq9s0",
+                                            "created": 1695521463079,
+                                            "text": "Collaboration between business and IT"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqifirxuao0",
+                                    "created": 1695493912934,
+                                    "text": "Speed - Quick setup, dev and and deployment timelines",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqlwmoc7fk0",
+                                            "created": 1695503716944,
+                                            "text": "Pivot speed"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqj4q2lp4o0",
+                                    "created": 1695495887921,
+                                    "text": "Scalability - easy to build"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqifydm42o0",
+                                    "created": 1695493946897,
+                                    "text": "Reduced Complexity - reduce the complexity of app dev process"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqittzsf340",
+                                    "created": 1695495034452,
+                                    "text": "Reduced Risk - as rules evolve and conditions change in the market - simple automation minimizes risks",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvql3udsgeg0",
+                                            "created": 1695501461160,
+                                            "text": "lock-in from previous version"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqigb6z3xc0",
+                                    "created": 1695493974793,
+                                    "text": "Increased productivity - due to speed and reduced complexity"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqitdunctc0",
+                                    "created": 1695494999313,
+                                    "text": "Cost efficiency - due to no need for development teams and expensive tools  more apps in lesser time",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqmp6stg0o0",
+                                            "created": 1695505954947,
+                                            "text": "Free up devs for high-value tasks"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqifd4yg3k0",
+                                    "created": 1695493900661,
+                                    "text": "Tech Churn Protection - evolve instead of replace outdated products - LCDP evolves as well"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqig30rw800",
+                                    "created": 1695493957004,
+                                    "text": "Democratization of technology - Out of the clutches of the SE faction into the hands of  citizen developers - can tag-team with engineers"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvql1vqwa5s0",
+                                    "created": 1695501307401,
+                                    "text": "Depth of Functionality - seasoned devs can incorporate complex flows and logic"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqifb5tavc0",
+                                    "created": 1695493896359,
+                                    "text": "Escape legacy debt - when tech no longer supports requirements"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqifp01icg0",
+                                    "created": 1695493926485,
+                                    "text": "Agility - organizations deliver at a rapid pace",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqj762venc0",
+                                            "created": 1695496079494,
+                                            "text": "Reduce TTM for consumer apps"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqj7kk5yao0",
+                                            "created": 1695496111014,
+                                            "text": "ROI - via quicker feedback and faster decisions"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqk44d907k0",
+                                            "created": 1695498661785,
+                                            "text": "Respond quickly to changing customer needs"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqigjfieow0",
+                                    "created": 1695493992724,
+                                    "text": "Freedom - Reduce dependency of high technical skills"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqit4smuao0",
+                                    "created": 1695494979600,
+                                    "text": "Platform flexiblity - vs custom development"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqs68beyf40",
+                                    "created": 1695521395989,
+                                    "text": "Architectural Consistency"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqtg39f9ww0",
+                                    "created": 1695524989736,
+                                    "text": "Allows Fast and cheap failure"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqvpoi6pko0",
+                                    "created": 1695531383476,
+                                    "text": "Governance"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqkt5qyk340",
+                            "created": 1695500623895,
+                            "text": "LCAP Types",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqktgmm48g0",
+                                    "created": 1695500647577,
+                                    "text": "Business Applications",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqktktwits0",
+                                            "created": 1695500656725,
+                                            "text": "Internal-facing"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqktob158w0",
+                                            "created": 1695500664291,
+                                            "text": "Non-tech collaborate with programmers"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqku1dbn3s0",
+                                    "created": 1695500692728,
+                                    "text": "Process creation and management",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqku7lrw8o0",
+                                            "created": 1695500706299,
+                                            "text": "like BPM but with code"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqkuhgep940",
+                                    "created": 1695500727743,
+                                    "text": "User-facing applications",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqkv3600uw0",
+                                            "created": 1695500775002,
+                                            "text": "can come with security risks due to ignorance"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqkum20fvk0",
+                                    "created": 1695500737756,
+                                    "text": "Websites"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqkuna8m140",
+                                    "created": 1695500740430,
+                                    "text": "Ecommerce Applications"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqlb4qqatc0",
+                                    "created": 1695502032259,
+                                    "text": "Self-hosted via PaaS"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqlb8pljz40",
+                                            "created": 1695502040898,
+                                            "text": "Pros and cons"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvql97zvihs0",
+                            "created": 1695501882614,
+                            "text": "Low Code project flow",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqlmfrmhls0",
+                                    "created": 1695502918264,
+                                    "text": "Identify need and suitability to LC"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqmd8oi1rk0",
+                                            "created": 1695505018670,
+                                            "text": "See if NC would fit"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqlp83n9l40",
+                                    "created": 1695503136669,
+                                    "text": "Team formation and roles"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqm8ytgbqo0",
+                                            "created": 1695504683745,
+                                            "text": "to avoid overlaps"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqln8rft280",
+                                    "created": 1695502981379,
+                                    "text": "Low Code Platform Selection",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqlodw37fs0",
+                                            "created": 1695503070909,
+                                            "text": "Selection Team / Stakeholders",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvqloj18md40",
+                                                    "created": 1695503082104,
+                                                    "text": "Process Owners"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqlom1hr5c0",
+                                                    "created": 1695503088650,
+                                                    "text": "Citizen Developers"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqloo0v2nk0",
+                                                    "created": 1695503092965,
+                                                    "text": "Potential Devs"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqlacalbtk0",
+                                            "created": 1695501970334,
+                                            "text": "Platform Selection Considerations",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvqlkkrp6nc0",
+                                                    "created": 1695502772424,
+                                                    "text": "Pricing Structure",
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cvqlknrz15s0",
+                                                            "created": 1695502778971,
+                                                            "text": "LIcense/per seat/free"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqlkse7mug0",
+                                                    "created": 1695502789023,
+                                                    "text": "Use cases"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqlkz04h7s0",
+                                                    "created": 1695502803408,
+                                                    "text": "Target platforms"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqll2f3qvc0",
+                                                    "created": 1695502810844,
+                                                    "text": "White labeling needs"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqll71acm80",
+                                                    "created": 1695502820893,
+                                                    "text": "Budget"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqllay4zu80",
+                                                    "created": 1695502829410,
+                                                    "text": "Ease of integration with existing and 3rd party systems"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqllk8rv2w0",
+                                                    "created": 1695502849644,
+                                                    "text": "CTA"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqlnnrmna80",
+                                            "created": 1695503014042,
+                                            "text": "Filter Options"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqlnri11940",
+                                            "created": 1695503022169,
+                                            "text": "Shortlist",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvqlnvur9ug0",
+                                                    "created": 1695503031646,
+                                                    "text": "Involve Devs"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqlnuf5jrk0",
+                                            "created": 1695503028526,
+                                            "text": "Demos",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvqlo1vze4w0",
+                                                    "created": 1695503044781,
+                                                    "text": "Regardless of on-paper comparisons"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqlpgnf14o0",
+                                    "created": 1695503155279,
+                                    "text": "Possible negotiation"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqlplgex8o0",
+                                    "created": 1695503165739,
+                                    "text": "Final decision"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqm8iutuao0",
+                                    "created": 1695504649000,
+                                    "text": "Train team on LC"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqlqd44sz40",
+                                    "created": 1695503225946,
+                                    "text": "Trial run"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqm7zin2lc0",
+                                            "created": 1695504606904,
+                                            "text": "Start off small"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqlpn6kmcg0",
+                                    "created": 1695503169498,
+                                    "text": "Kickoff"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqm4dr3s1s0",
+                                    "created": 1695504324434,
+                                    "text": "Data Model Design"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqm4ggcjs00",
+                                    "created": 1695504330314,
+                                    "text": "Interface Design"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqngi18xds0",
+                                    "created": 1695508095234,
+                                    "text": "Build"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqngj43ie80",
+                                    "created": 1695508097583,
+                                    "text": "Test"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqlpscyxsg0",
+                                    "created": 1695503180768,
+                                    "text": "Deploy and Monitor"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqlpv3bhe80",
+                                    "created": 1695503186715,
+                                    "text": "Train Team on software"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqm4ro6pv40",
+                                    "created": 1695504354732,
+                                    "text": "Iterate"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqiwu92diw0",
+                            "created": 1695495270105,
+                            "text": "Low Code limitations",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqiwx9sdfs0",
+                                    "created": 1695495276679,
+                                    "text": "Limited customization opportunities and control - if functionality not built-in"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqix5qnyiw0",
+                                    "created": 1695495295114,
+                                    "text": "Performance issues - large datasets - custom is required"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqixb260hk0",
+                                    "created": 1695495306693,
+                                    "text": "Integrations - or lack of them, for external or internal tools"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqm2judsf40",
+                                    "created": 1695504180964,
+                                    "text": "Vendor Lock-in"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqm2mmhk680",
+                                            "created": 1695504187017,
+                                            "text": "Possible to avoid if backend is a db - like directus"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqk7uukmao0",
+                                    "created": 1695498954521,
+                                    "text": "Project Scale",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvql6jaohwg0",
+                                            "created": 1695501672120,
+                                            "text": "Not enterprise-grade"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvql6ohrofk0",
+                                            "created": 1695501683432,
+                                            "text": "Hinderance for complex goals"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvql6tj4jy80",
+                                            "created": 1695501694398,
+                                            "text": "Not for critical tasks"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvql7lgw9vc0",
+                                    "created": 1695501755213,
+                                    "text": "Balance Needed",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvql7q9hdsw0",
+                                            "created": 1695501765649,
+                                            "text": "Lots of code makes it inaccessible to business users"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvql83tc8ew0",
+                                            "created": 1695501795148,
+                                            "text": "Clear plan to find the best platform"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvql85y7aaw0",
+                                                    "created": 1695501799795,
+                                                    "text": "CTA"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqm3fj7wm80",
+                                    "created": 1695504249946,
+                                    "text": "Security and Compliance"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqm3ilm53s0",
+                                            "created": 1695504256622,
+                                            "text": "may require additional"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqm3lxauf40",
+                                    "created": 1695504263859,
+                                    "text": "Cost at Scale"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqm3oqb3rc0",
+                                            "created": 1695504269966,
+                                            "text": "per seat"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqt0phdgv40",
+                                    "created": 1695523784279,
+                                    "text": "Highly Opinionated"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqt0snzke00",
+                                            "created": 1695523791210,
+                                            "text": "One \"right\" way of doing things"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqt4dwzz140",
+                                    "created": 1695524072560,
+                                    "text": "Proprietary Language for some"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqj43qsdvs0",
+                            "created": 1695495839317,
+                            "text": "Who is a citizen developer?",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqks63fu0w0",
+                                    "created": 1695500546285,
+                                    "text": "Can collaborate with professional developers to fill gaps"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqksjclxp40",
+                            "created": 1695500575138,
+                            "text": "Low Code development processes"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqipeu3r680",
+                            "created": 1695494688000,
+                            "text": "Low Code avoidance reasons",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqipicsh7c0",
+                                    "created": 1695494695660,
+                                    "text": "Lack of knowledge about Low Code"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqipll9ktc0",
+                                    "created": 1695494702703,
+                                    "text": "Concern about vendor \"lock-in\" "
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqipqihjk00",
+                                    "created": 1695494713419,
+                                    "text": "Don't think Low Code fulfills needs"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqipucr4uo0",
+                                    "created": 1695494721779,
+                                    "text": "Concern about scalability"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqipwwfjp40",
+                                    "created": 1695494727323,
+                                    "text": "Concern about app security"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqis84sa8w0",
+                            "created": 1695494908501,
+                            "text": "Low Code use cases",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqof0cvyrc0",
+                                    "created": 1695510799502,
+                                    "text": "Low Code in industries",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqoh7u5og00",
+                                    "created": 1695510972512,
+                                    "text": "Low Code in departments",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqisck2hw00",
+                                            "created": 1695494918132,
+                                            "text": "Corporate sales management"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqisf4jdg80",
+                                            "created": 1695494923723,
+                                            "text": "Loyalty Prog management"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqishpehs80",
+                                            "created": 1695494929338,
+                                            "text": "Customer service management"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqisjjoci00",
+                                            "created": 1695494933346,
+                                            "text": "HR management",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvqnumx5nz40",
+                                                    "created": 1695509202969,
+                                                    "text": "Employee lifecycle management"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cvqlyjuhpb40",
+                                                            "created": 1695503867514,
+                                                            "text": "Automate onboarding"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqnvfsuza80",
+                                                    "created": 1695509265836,
+                                                    "text": "Expense claim management"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqom38b3kw0",
+                                                    "created": 1695511354304,
+                                                    "text": "Job portal"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqj9mjcup40",
+                                    "created": 1695496272047,
+                                    "text": "Mobile applications",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqj9ro0kko0",
+                                            "created": 1695496283213,
+                                            "text": "Mendix"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqj9uqr0680",
+                                    "created": 1695496289909,
+                                    "text": "Custom Apps",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqj9yzmc0w0",
+                                            "created": 1695496299152,
+                                            "text": "Internal workflows"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvqja1ph3340",
+                                                    "created": 1695496305069,
+                                                    "text": "Caspio"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqjayb3ue80",
+                                    "created": 1695496376034,
+                                    "text": "Microservices"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqjb6i95sw0",
+                                    "created": 1695496393881,
+                                    "text": "Data Science",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqjb9ovdgg0",
+                                            "created": 1695496400811,
+                                            "text": "Generic software not good enough"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqldjek96g0",
+                                    "created": 1695502220904,
+                                    "text": "PoC Development",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqlze5sphk0",
+                                            "created": 1695503933501,
+                                            "text": "Rapid prototyping"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvqlzhr3fx40",
+                                                    "created": 1695503941320,
+                                                    "text": "accelerated innovation cycle"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqlzkvocls0",
+                                                    "created": 1695503948127,
+                                                    "text": "quickly respond to market changes"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqldm7y2m00",
+                                    "created": 1695502227034,
+                                    "text": "MVP Development"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqliyryxnk0",
+                                    "created": 1695502646187,
+                                    "text": "Legacy System Modernization",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqm0ieb9jc0",
+                                            "created": 1695504021088,
+                                            "text": "extend lives of systems"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqlxs9mq340",
+                                    "created": 1695503807480,
+                                    "text": "Business Process Automation",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqk4q5g5ag0",
+                                            "created": 1695498709203,
+                                            "text": "Automate Document Management"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqk4k61hmo0",
+                                            "created": 1695498696178,
+                                            "text": "Automate CRM",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvqlywmp8hk0",
+                                                    "created": 1695503895341,
+                                                    "text": "improve customer service and relationships"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cvqnvoyqmn40",
+                                                    "created": 1695509285782,
+                                                    "text": "Complaint management"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqlyats4bk0",
+                                            "created": 1695503847880,
+                                            "text": "Phrases"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvqlyck7lps0",
+                                                    "created": 1695503851655,
+                                                    "text": "repetitive, mundane tasks"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqlyqhuak00",
+                                            "created": 1695503881987,
+                                            "text": "Supply Chain Management"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cvqnvbufhvs0",
+                                                    "created": 1695509257224,
+                                                    "text": "Purchase management"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqnvt1bo9s0",
+                                            "created": 1695509294646,
+                                            "text": "Sales lead management"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqnw0attvk0",
+                                            "created": 1695509310458,
+                                            "text": "IT incident management"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqlztok3hc0",
+                                    "created": 1695503967288,
+                                    "text": "Data Collection and Analysis",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqlzwcdoso0",
+                                            "created": 1695503973081,
+                                            "text": "Surveys and forms for informed decision-making"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqm2z5hj3k0",
+                                    "created": 1695504214287,
+                                    "text": "API Creation"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqm328ex200",
+                                    "created": 1695504220995,
+                                    "text": "CMS"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqopfapa740",
+                                    "created": 1695511615663,
+                                    "text": "Chatbots"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqigtt2o0w0",
+                            "created": 1695494015312,
+                            "text": "Low Code Statistics",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqil5qmnio0",
+                                    "created": 1695494354742,
+                                    "text": "$187 billion by 2030"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqil968y1c0",
+                                    "created": 1695494362217,
+                                    "text": "65% of app dev by 2024"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqildxitog0",
+                                    "created": 1695494372573,
+                                    "text": "Over 500M apps and services using cloud-native approaches"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqilny1nd40",
+                                    "created": 1695494394372,
+                                    "text": "Reduce app dev time by upto 90%"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqilrs48ug0",
+                                    "created": 1695494402721,
+                                    "text": "70% of new business apps on lcnc by 2025"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqilx7u24g0",
+                                    "created": 1695494414555,
+                                    "text": "Market 84.8B by 2027"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqimb8bgps0",
+                                    "created": 1695494445060,
+                                    "text": "70% fewer resources"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqin0yoy0w0",
+                                    "created": 1695494501074,
+                                    "text": "41% of businesses have active citizen development initiatives - 20% remaining are evaluating to start"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqinhs89s80",
+                                    "created": 1695494537688,
+                                    "text": "Half of all new lc customers from outside the IT org by 2025"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqinv1nxq80",
+                                    "created": 1695494566557,
+                                    "text": "60% of app are now built outside the IT dept, 30% of them by employees with limited tech dev skills"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqiojwdbs00",
+                                    "created": 1695494620656,
+                                    "text": "4/5 businesses in the US use Low Code"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqj3f8sjs00",
+                            "created": 1695495785986,
+                            "text": "Low Code vs traditional SD"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvqdiijwdhk0",
+                    "created": 1695480041991,
+                    "text": "Low Code and No Code"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvqk7n4n9iw0",
+                            "created": 1695498937716,
+                            "text": "RAD",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqk1kol9bs0",
+                                    "created": 1695498462207,
+                                    "text": "CADP",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvqs49xm9m80",
+                                            "created": 1695521242780,
+                                            "text": "NCDP"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cvqk1m7cxyg0",
+                                            "created": 1695498465519,
+                                            "text": "NCAP"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqk1j353qg0",
+                                    "created": 1695498458733,
+                                    "text": "LCAP"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvql5v46pb40",
+                            "created": 1695501619484,
+                            "text": "Workplace Innovation Platforms"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqma74bbq80",
+                            "created": 1695504780180,
+                            "text": "Full-code/High-code"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqmjq9s3a80",
+                            "created": 1695505527147,
+                            "text": "When to use No/High/Low code",
+                            "image": "https://five.co/wp-content/uploads/2023/08/Five.co-No-Code-Low-Code-Full-Code-Overview-edited.png",
+                            "imageTitle": "",
+                            "imageSize": {
+                                "width": 200,
+                                "height": 112
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvqiha5e1nc0",
+                    "created": 1695494050885,
+                    "text": "Sources",
+                    "expandState": "collapse",
+                    "image": "",
+                    "imageTitle": "",
+                    "imageSize": ""
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvqihbphf7s0",
+                            "created": 1695494054277,
+                            "text": "https://www.softwaretestinghelp.com/low-code-development-platforms/"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqj1faxri00",
+                            "created": 1695495629388,
+                            "text": "https://www.g2.com/categories/low-code-development-platforms"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqj1h43q3s0",
+                            "created": 1695495633328,
+                            "text": "https://www.g2.com/categories/no-code-development-platforms"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqj1nlf8so0",
+                            "created": 1695495647436,
+                            "text": "https://fireart.studio/blog/top-7-low-code-mobile-app-development-platforms/",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqj27ldnds0",
+                            "created": 1695495690969,
+                            "text": "https://www.trio.dev/blog/low-code-platforms"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqk8r4u3u00",
+                            "created": 1695499024799,
+                            "text": "https://www.forbes.com/sites/forbestechcouncil/2023/03/07/an-introduction-to-no-codelow-code-platforms-seven-things-you-should-know/?sh=1c00bf965fe2"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvqii07tibs0",
+                    "created": 1695494107628,
+                    "text": "LCNC platform page template",
+                    "image": "https://www.nic.in/wp-content/uploads/2022/02/ServicePlusSats.jpg",
+                    "imageTitle": "",
+                    "imageSize": {
+                        "width": 200,
+                        "height": 123
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvqik7r3iyo0",
+                            "created": 1695494280760,
+                            "text": "Domain"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqikbt5pug0",
+                            "created": 1695494289591,
+                            "text": "Tagline"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqixnigk9c0",
+                            "created": 1695495333800,
+                            "text": "Introduction"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqijgj0duo0",
+                            "created": 1695494221498,
+                            "text": "Platforms"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqijidyk0w0",
+                            "created": 1695494225546,
+                            "text": "Target market"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqijkh4lvk0",
+                            "created": 1695494230091,
+                            "text": "Free Trial"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqijnv17a80",
+                            "created": 1695494237463,
+                            "text": "Pricing"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqijtd5l200",
+                            "created": 1695494249442,
+                            "text": "Features"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqja6qqdc00",
+                            "created": 1695496316029,
+                            "text": "Examples and use cases"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqixtd4i400",
+                            "created": 1695495346538,
+                            "text": "Pros"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqixv72v5c0",
+                            "created": 1695495350526,
+                            "text": "Cons"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqijukoxmg0",
+                            "created": 1695494252074,
+                            "text": "Verdict"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqkc3qaz200",
+                            "created": 1695499287311,
+                            "text": "Radar chart on",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqkc5q90eo0",
+                                    "created": 1695499291661,
+                                    "text": "Citizen vs dev leaning"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvqkc951sa80",
+                                    "created": 1695499299087,
+                                    "text": "More metrics"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvqiims85m80",
+                    "created": 1695494156751,
+                    "text": "TODO",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvqiinzip280",
+                            "created": 1695494159369,
+                            "text": "TODO: Grab product description, users, segment, industries, pros and cons from g2.com as well and use them.\nhttps://www.g2.com/categories/low-code-development-platforms\nhttps://www.g2.com/categories/no-code-development-platforms\nhttps://www.g2.com/categories/workplace-innovation-platforms"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqiiyb500o0",
+                            "created": 1695494181839,
+                            "text": "TODO: Grab business size, tagline, features, url, free trial, price, other details for the available platforms from above\nhttps://www.softwaretestinghelp.com/low-code-development-platforms/#4_The_m-Power_Development_Platform"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqiy1n6wrc0",
+                            "created": 1695495364561,
+                            "text": "TODO: Grab relevant template info from \n\nhttps://fireart.studio/blog/top-7-low-code-mobile-app-development-platforms/",
+                            "layout_filetree-down_offset": {
+                                "x": -2.749993725370018,
+                                "y": -3.7499998845161144
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqjbwif42w0",
+                            "created": 1695496450487,
+                            "text": "TODO: Grab LCDP info from\nhttps://www.trio.dev/blog/low-code-platforms"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqkapu1nrk0",
+                            "created": 1695499178698,
+                            "text": "TODO: See how we can extract data from\nhttps://www.gartner.com/reviews/market/enterprise-low-code-application-platform"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqm0u8u6b40",
+                            "created": 1695504046878,
+                            "text": "TODO: Extract detailed analysis of platforms from\nhttps://appmaster.io/blog/best-low-code-platforms"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqmavx0en40",
+                            "created": 1695504834158,
+                            "text": "TODO: Add images to each page as appropriate"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqmxtdankw0",
+                            "created": 1695506630988,
+                            "text": "Write a playbook"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqiy1n6wrc0",
+                            "created": 1695495364561,
+                            "text": "TODO: Grab relevant template info from \n\nhttps://quixy.com/blog/top-no-code-app-builders/",
+                            "layout_filetree-down_offset": {
+                                "x": -2.749993725370018,
+                                "y": -3.7499998845161144
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvqvt6fh26o0",
+                                    "created": 1695531657586
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvqsu6c4wqg0",
+                            "created": 1695523272419,
+                            "text": "TODO: Grab pros/cons relevant info from \nhttps://www.pcmag.com/picks/the-best-low-code-development-platforms"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvqvtkoeokg0",
+                            "created": 1695531688601,
+                            "text": "TODO: Grab from \nhttps://www.gartner.com/doc/reprints?id=1-2C85N0EW&ct=230111&st=sb"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "filetree",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

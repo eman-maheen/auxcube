@@ -1,0 +1,148 @@
+<script lang="ts">
+  import { services } from '$lib/content/site';
+  import { page } from '$app/stores';
+  import PlanetaryResonance from '$lib/components/animations/PlanetaryResonance.svelte';
+  import Breadcrumbs from '$lib/components/pageSections/Breadcrumbs.svelte';
+  import GridOneCol from '$lib/components/pageSections/GridOneCol.svelte';
+  import HeroMiddleLayout from '$lib/components/pageSections/HeroMiddleLayout.svelte';
+  import type { ActionData } from './$types';
+  import { enhance } from '$app/forms';
+
+  export let form: ActionData;
+
+  let foundService = services?.children?.find((v) => v.slug === $page.params.service);
+  let welcomeMessage = 'Thank you for your interest';
+  welcomeMessage += foundService?.title
+    ? ` regarding ${foundService.title}. ${foundService.snippet}`
+    : '.';
+  let pronoun = 'I';
+  let amare = 'am';
+  let submitting = false;
+  let formMessage = "";
+
+  function onSubmit() {
+    submitting = true;
+    return async ({result, update }) => {
+      submitting = false;
+      formMessage = result.data.message;
+      setTimeout(() => {
+      formMessage = '';
+    }, 5000);
+      await update();
+    };
+  }
+
+  // TODO: Optimize all the page containers
+  // TODO: Hero does not stretch if page is a container?!
+  $: {
+    // FIXME: Are all these reactive things necessary?
+    amare = pronoun === 'I' ? 'am' : 'are';
+    foundService = services?.children?.find((v) => v.slug === $page.params.service);
+    welcomeMessage = 'Thank you for your interest';
+    welcomeMessage += foundService?.title
+      ? ` regarding ${foundService.title}. ${foundService.snippet}`
+      : '.';
+  }
+</script>
+
+<svelte:head>
+  <title>Contact | LowcodeN | We Elevate Your Tech Transformation</title>
+  <meta name="description" content="LowcodeN" />
+</svelte:head>
+
+<HeroMiddleLayout>
+  <svelte:fragment slot="bannerHeading">Contact LowcodeN</svelte:fragment>
+  <svelte:fragment slot="bannerText">
+    <h2 class="lg:text-start">Let's get started</h2>
+  </svelte:fragment>
+  <svelte:fragment slot="bannerRightContent">
+    <PlanetaryResonance />
+  </svelte:fragment>
+</HeroMiddleLayout>
+
+<!-- <Breadcrumbs /> -->
+
+<GridOneCol cssClass="mb-8">
+  <!-- <h1 class="pageTitle  text-center mx-auto">Contact</h1> -->
+  <div class="sectionText md:w-3/5">
+    {welcomeMessage}
+  </div>
+  <div class="sectionText md:w-3/5">
+    {#if formMessage}
+    <div class="{form?.error ? 'text-error' : 'text-success'}">{formMessage}</div>
+    {:else}
+      Please help us understand your requirements by filling out the form below, and we will respond
+      soon.
+    {/if}
+  </div>
+
+  <div class="sectionText md:w-4/5">
+    <form method="POST" use:enhance={onSubmit}>
+      <div class="sectionText items-start space-y-4 bg-surface-dark-800">
+        <p class="p-0">Greetings!</p>
+        <select class="select select-ghost h-full" name="pronoun" bind:value={pronoun}>
+          <option selected>I</option>
+          <option>We</option>
+        </select>
+        {amare}
+        <input type="text" class="input h-full" name="entity" placeholder="<name/group>" required /> ,
+        <input
+          type="text"
+          class="input h-full"
+          name="designation"
+          placeholder="<role/designation>"
+          required
+        />
+        at
+        <input
+          type="text"
+          class="input h-full"
+          name="business"
+          placeholder="<business name>"
+          required
+        />.
+        {pronoun}
+        {amare} interested in
+        <input
+          type="text"
+          class="input w-1/2 h-full"
+          name="requirements"
+          value={foundService?.title ?? ''}
+          placeholder="<requirements>"
+          required
+        />
+        , and may be reached at
+        <input
+          type="email"
+          class="input h-full"
+          name="email"
+          placeholder="<professional email>"
+          required
+        />.
+        <div class="flex flex-row items-center justify-between">
+          <p class="p-0">Looking forward to hearing from LowcodeN!</p>
+          <button type="submit" disabled={submitting} class="btn btn-secondary self-end">
+            {#if submitting}
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="mr-2 animate-spin"
+                viewBox="0 0 1792 1792"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M526 1394q0 53-37.5 90.5t-90.5 37.5q-52 0-90-38t-38-90q0-53 37.5-90.5t90.5-37.5 90.5 37.5 37.5 90.5zm498 206q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm-704-704q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm1202 498q0 52-38 90t-90 38q-53 0-90.5-37.5t-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm-964-996q0 66-47 113t-113 47-113-47-47-113 47-113 113-47 113 47 47 113zm1170 498q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5 37.5-90.5 90.5-37.5 90.5 37.5 37.5 90.5zm-640-704q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm530 206q0 93-66 158.5t-158 65.5q-93 0-158.5-65.5t-65.5-158.5q0-92 65.5-158t158.5-66q92 0 158 66t66 158z"
+                >
+                </path>
+              </svg>
+              Submitting
+            {:else}
+              Send
+            {/if}
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</GridOneCol>

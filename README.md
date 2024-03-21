@@ -1,2 +1,3 @@
 # auxcube
-Auxcube website design revamp
+auxcube revamped website
+
