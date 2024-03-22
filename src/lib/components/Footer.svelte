@@ -46,7 +46,7 @@
       {/each}
     </div>
     <div class="footerColumn">
-      <img src="/images/lowcoden-logo-dark.svg" alt="LowcodeN Logo" class="py-4 object-contain w-1/2" width="240" height="120"/>
+      <img src="/images/auxcube-logo.svg" alt="LowcodeN Logo" class="py-4 object-contain w-1/2" width="240" height="120"/>
       {#each ['Contact', 'About'] as link} 
       <!-- , 'Cookie Policy','Careers' -->
         <a href={'/' + titleToSlug(link)} aria-label={link}>

@@ -8,7 +8,7 @@
 <div class="navLogo">
   <img
     class="block dark:hidden"
-    src="/images/lowcoden-logo-dark.svg"
+    src="/images/auxcube-logo.svg"
     aria-label="LowcodeN Logo"
     alt="LowcodeN Logo"
     width="240"
@@ -16,7 +16,7 @@
   />
   <img
     class="hidden dark:block"
-    src="/images/lowcoden-logo-dark.svg"
+    src="/images/auxcube-logo.svg"
     aria-label="LowcodeN Logo"
     alt="LowcodeN Logo"
     width="240"
