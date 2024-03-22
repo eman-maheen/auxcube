@@ -4,8 +4,8 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors');
 
 const darkTheme = {
-          primary: colors.purple[800], // colors.green[400],
-          secondary: colors.red[400],
+  primary: colors.emerald[400], // colors.green[400],
+          secondary: colors.gray[950],
           accent: '#8de8e8',
           neutral: '#1c1424',
           'base-100': '#150515',
@@ -14,7 +14,7 @@ const darkTheme = {
           warning: '#fb8e09',
           error: '#e8175d',
           '--blob-color': '123 45% 67%',
-          '--primary-cta-base': '285 65% 12%',
+          '--primary-cta-base': '344 80% 30%',
           "--rounded-btn": "0.125rem",
           h1: {
             fontFamily: "Manrope",

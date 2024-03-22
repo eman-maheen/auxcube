@@ -86,39 +86,25 @@ p {
   background: hsl(var(--in));
 }
 header {
-  @apply flex flex-row mx-auto items-center w-full shadow-lg sticky top-0 z-50 bg-primary font-nav;
-  .navStrip {
-    @apply flex-1 flex-row 2xl:container mx-auto items-center w-full;
-  }
-  .navGrid {
-    @apply grid items-center grid-cols-[auto_1fr_auto];
-  }
+  @apply md:py-8 font-nav;
+
   .navLogoBox {
-    @apply flex flex-row items-center justify-start;
+    @apply flex flex-row justify-between items-center;
   }
   .navLogo {
-    @apply flex justify-between items-center h-[var(--nav-height)];
+    @apply md:fixed px-4;
     img {
-      @apply w-[calc(var(--nav-height)*0.75)] min-w-[calc(var(--nav-height)*0.75)] md:w-[var(--nav-height)] md:min-w-[var(--nav-height)];
+      @apply w-[calc(var(--nav-height)*1.5)] md:w-[calc(var(--nav-height)*2)];
     }
   }
   .navHamburger {
     @apply btn btn-ghost md:hidden;
   }
   .navLinks {
-    @apply hidden md:flex md:flex-row h-full items-center align-middle justify-center;
-    a {
-      @apply flex flex-row justify-center h-full border-b-4 transition-colors duration-300 ease-in-out border-b-transparent hover:border-b-logo-lowcode-200 hover:bg-logo-n-900 ring-0 whitespace-nowrap text-xl font-medium;
+    @apply hidden fixed text-emerald-400 md:flex right-0 text-end px-4;
+    li {
+      @apply m-3 hover:text-slate-200;
     }
-  }
-  .navTrail {
-    @apply flex items-center justify-end;
-  }
-  .navSearchInput {
-    @apply input input-bordered w-full max-w-xs;
-  }
-  .navSearchButton {
-    @apply btn btn-ghost btn-circle;
   }
 }
 /* TODO: Add a triangle to the current top nav link at the bottom to link it with the subnav */
@@ -150,6 +136,10 @@ header {
 
 .heroContentCenter {
   @apply flex flex-col hero-content text-start text-neutral-content max-w-md;
+}
+
+.content {
+  @apply text-center md:px-[calc(var(--nav-height)*2.25)] p-5;
 }
 
 .page {
@@ -247,45 +237,8 @@ footer {
 
 /* TODO: This section contains only the gaps for all elements - see if this is a good approach or we need to merge these with the above classes */
 
-.navLinks {
-  a {
-    @apply px-4;
-  }
-}
-.subnavItem {
-  @apply hover:bg-primary-cta-base;
-}
-.subnavLinkTitle {
-  @apply pl-4;
-}
 .mobileNav {
   @apply md:hidden flex flex-col h-screen max-w-[90%] w-full top-[var(--nav-height)] absolute z-50 bg-base-300 bg-transparent/80  overflow-y-auto whitespace-nowrap;
-}
-.navGrid {
-  @apply gap-8;
-}
-.navLogo {
-  @apply px-4;
-}
-.navTrail {
-  @apply pr-4;
-}
-.subnav {
-  .subnavGrid {
-    @apply p-12;
-
-    .subnavItem {
-      @apply p-2;
-    }
-  }
-  .subnavImageText {
-    @apply p-8;
-  }
-  ul {
-    a {
-      @apply py-1;
-    }
-  }
 }
 .pageTitle {
   @apply py-4 px-4;
