@@ -41,7 +41,7 @@
   ];
 </script>
 
-<TwoColsWrapper imageAligned="right">
+<TwoColsWrapper imageAligned='left'>
   <div slot="leftColumn">
     {#each consultations as consultation}
       <TitleContentBlock

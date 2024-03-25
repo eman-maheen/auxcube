@@ -22,7 +22,6 @@
     transition-duration: 2s;
 } */
 
-
 html {
   @apply scroll-smooth;
   transition:
@@ -62,6 +61,9 @@ a {
 p {
   @apply p-4 pb-2;
 }
+.headingLarge {
+  @apply text-5xl pb-5;
+}
 .btn {
   @apply font-nav text-lg;
 }
@@ -85,6 +87,11 @@ p {
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--in));
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 header {
   @apply md:py-8 font-nav;
 
@@ -221,16 +228,16 @@ footer {
   @apply hero md:h-screen;
 }
 .heroContent {
-  @apply hero-content responsiveFullWidthRow space-x-5;
+  @apply hero-content responsiveFullWidthRow md:space-x-5;
 }
 .heroTopContent {
   @apply flex flex-col items-center text-center mb-5;
 }
 .heroMiddleContent {
-  @apply flex flex-col md:text-start
+  @apply flex flex-col md:text-start;
 }
-.heroMiddleHeading{
-  @apply whitespace-nowrap leading-relaxed
+.heroMiddleHeading {
+  @apply whitespace-nowrap leading-relaxed;
 }
 .bannerHeading {
   @apply mb-5 font-bold uppercase;
@@ -250,36 +257,47 @@ footer {
     @apply noWrap leading-tight mb-5;
   }
 }
+.ordered {
+  @apply relative border-s;
+  li {
+    @apply mb-10 ms-10 bannerText;
+  }
+}
+.numberedCircle {
+  @apply absolute flex text-black items-center justify-center w-8 h-12 bg-gray-200 rounded-full -start-4;
+}
 .verticalText {
-  @apply md:transform md:-rotate-90 flex items-center md:flex-col md:w-1/5
+  @apply md:transform md:-rotate-90 flex items-center md:flex-col md:w-1/5;
 }
 .topAlignedText {
-  @apply md:text-start pt-0
+  @apply md:text-start pt-0;
 }
 .noWrap {
-  @apply md:whitespace-nowrap
+  @apply md:whitespace-nowrap;
 }
 .responsiveFullWidthRow {
-  @apply flex flex-col md:flex-row w-full
+  @apply flex flex-col md:flex-row w-full;
 }
-.wrapperLeftCol{
-  @apply flex flex-col bannerText border-r-2 border-zinc-700 md:px-5
-
+.wrapperLeftCol {
+  @apply flex flex-col bannerText border-r-2 border-zinc-700 md:px-5;
 }
-.wrapperRightCol{
-  @apply bannerText md:w-3/5 items-center
+.wrapperRightCol {
+  @apply bannerText md:w-3/5 items-center;
 }
 /* TODO: This section contains only the colors for all elements - see if this is a good approach or we need to merge these with the above classes */
 
 /* TODO: This section contains only the gaps for all elements - see if this is a good approach or we need to merge these with the above classes */
 .wrapperTitleContentBlock {
-  @apply text-start mb-10
+  @apply md:text-start mb-10 text-center;
 }
-.flexStart{
-  @apply flex items-start
+.rightCol {
+  @apply flexCol md:self-start;
 }
-.flexCol{
- @apply flex flex-col
+.flexStart {
+  @apply items-center flex md:flex-row flex-col md:items-start;
+}
+.flexCol {
+  @apply flex flex-col;
 }
 .mobileNav {
   @apply md:hidden flex flex-col h-screen max-w-[90%] w-full top-[var(--nav-height)] absolute z-50 bg-base-300 bg-transparent/80  overflow-y-auto whitespace-nowrap;
@@ -323,7 +341,7 @@ footer {
     @apply flex flex-row justify-around;
   }
   .footerSection {
-      @apply p-4;
+    @apply p-4;
   }
   .footerColumn {
     /* a {
@@ -340,5 +358,5 @@ footer {
 }
 
 .emphasize {
-  @apply text-primary
+  @apply text-primary;
 }
