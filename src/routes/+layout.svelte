@@ -69,7 +69,7 @@
   <Navbar bind:currentMenu bind:showMobileMenu />
 {/if}
 <div id="appShell" class:brightness-25={blurDesktop || blurMobile}>
-  <main id="pageSlot" class="content">
+  <main id="pageSlot">
     <slot />
   </main>
 

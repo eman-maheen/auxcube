@@ -365,11 +365,21 @@ footer {
 .pageTitle {
   @apply py-4 px-4;
 }
-
 .mobileNav {
   @apply p-4;
 }
-
 .emphasize {
   @apply text-primary;
+}
+.brandVisionSliderWrapper {
+  @apply relative w-full;
+}
+.brandVisionSliderBgImg {
+  @apply bg-[url('/images/bgBrandVision.webp')] bg-cover bg-no-repeat bg-center filter opacity-50 absolute inset-0;
+}
+.brandVisionSliderTextWrapper {
+  @apply flex items-center justify-center text-center relative;
+}
+.brandVisionSliderText {
+  @apply my-5 uppercase font-bold text-white tracking-widest z-10;
 }
