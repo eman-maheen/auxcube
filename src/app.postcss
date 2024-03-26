@@ -199,19 +199,28 @@ header {
 
 footer {
   @apply bg-surface-dark-800 md:w-full;
-  .footerStrip {
-    @apply flex flex-row flex-wrap bg-primary/20 mx-auto w-full justify-center text-lg;
-    a {
-      &:hover {
-        @apply text-primary;
-      }
+  a {
+    &:hover {
+      @apply text-primary;
     }
   }
-  .footerStripSection {
-    @apply section grid grid-cols-1 lg:grid-cols-[auto_auto_auto] items-center font-semibold;
+  .footerTopWrapper {
+    @apply px-4 text-center justify-between my-5 space-y-5;
   }
-  .footerSection {
-    @apply section grid grid-cols-1 2xl:container md:grid-cols-3  md:mx-auto md:items-center md:justify-center text-base;
+  .footerMainHeading {
+    @apply text-center bannerHeading md:text-8xl md:font-extrabold;
+  }
+  .footerSubHeading {
+    @apply font-semibold;
+  }
+  .footerCopyRightText {
+    @apply block text-center;
+  }
+  .footerBreak {
+    @apply my-5 w-1/2 mx-auto block;
+  }
+  .footerColSection {
+    @apply section grid grid-cols-1 2xl:container md:grid-cols-6  md:mx-auto md:items-center md:justify-center text-base justify-items-start justify-start;
   }
   .footerColumn {
     @apply flex flex-col h-full justify-start justify-self-start pl-4 md:mx-auto;
@@ -221,6 +230,21 @@ footer {
     a {
       @apply whitespace-nowrap;
     }
+    h2 {
+      @apply py-4;
+    }
+  }
+  .socialLinksWrapper {
+    @apply flex md:flex-col space-x-4 md:space-y-4 md:space-x-0 justify-center items-center;
+  }
+  .goToTopBtn {
+    @apply flex bg-surface-dark-200 items-center justify-center rounded-full w-8 h-8 md:h-16 my-5;
+  }
+  .socialLinksCol {
+    @apply items-center;
+  }
+  .firstCol {
+    @apply md:col-span-2;
   }
 }
 
@@ -267,7 +291,7 @@ footer {
   @apply absolute flex text-black items-center justify-center w-8 h-12 bg-surface-dark-200 rounded-full -start-4;
 }
 .numberedCircle {
-  @apply flex text-black items-center justify-center w-8 h-8 bg-gray-200 rounded-full
+  @apply flex text-black items-center justify-center w-8 h-8 bg-gray-200 rounded-full;
 }
 .verticalText {
   @apply md:transform md:-rotate-90 flex items-center md:flex-col md:w-1/5;
@@ -300,37 +324,40 @@ footer {
   @apply flex flex-col;
 }
 .wrapperPartnersLogos {
- @apply flex flex-wrap self-end justify-center gap-10
+  @apply flex flex-wrap md:px-10 self-end justify-center md:gap-20 gap-10;
 }
 .wrapperPartnersRightCol {
-  @apply order-first md:order-last flex-1 md:text-end md:ml-10 text-center
+  @apply order-first md:order-last flex-1 md:text-end md:ml-10 text-center;
 }
 .wrapperClientsRightCol {
-  @apply flex-1 md:text-start md:ml-10
+  @apply flex-1 md:text-start md:ml-10;
 }
 .partnerLogo {
-  @apply object-contain filter grayscale invert
+  @apply object-contain filter grayscale invert;
 }
 .pillBox {
   @apply flex border px-2 rounded-full items-center;
 }
 .clientSlider {
-  @apply flex md:mx-5 space-x-5 justify-center items-center
+  @apply flex md:mx-5 space-x-5 justify-center items-center;
 }
 .clientSliderBtn {
-  @apply flex md:flex-1 items-center justify-center w-8 h-8 my-5
+  @apply flex md:flex-1 items-center justify-center w-8 h-8 my-5;
 }
 .prevBtn {
-  @apply clientSliderBtn -rotate-90
+  @apply clientSliderBtn -rotate-90;
 }
 .nextBtn {
-  @apply clientSliderBtn rotate-90
+  @apply clientSliderBtn rotate-90;
 }
 .activeBtn {
-  @apply bg-surface-dark-800
+  @apply bg-surface-dark-800;
 }
 .disabledBtn {
-  @apply bg-surface-dark-200
+  @apply bg-surface-dark-200;
+}
+.primaryBtn {
+  @apply btn btn-primary;
 }
 .mobileNav {
   @apply md:hidden flex flex-col h-screen max-w-[90%] w-full top-[var(--nav-height)] absolute z-50 bg-base-300 bg-transparent/80  overflow-y-auto whitespace-nowrap;
@@ -338,54 +365,7 @@ footer {
 .pageTitle {
   @apply py-4 px-4;
 }
-.section {
-  @apply p-0;
-}
 
-.sectionPad {
-  @apply p-2 md:p-8;
-}
-
-.sectionCarousel {
-  @apply relative;
-}
-
-.sectionTitle {
-  @apply p-4;
-}
-.sectionText {
-  @apply px-2 md:px-4 py-4;
-}
-.sectionList {
-  @apply sectionTitle;
-  li {
-    @apply pb-2;
-  }
-}
-
-footer {
-  .footerStrip {
-    @apply flex flex-row py-2 my-2;
-    a {
-      @apply px-2 py-2 whitespace-nowrap;
-    }
-  }
-  .footerStripSection {
-    @apply flex flex-row justify-around;
-  }
-  .footerSection {
-    @apply p-4;
-  }
-  .footerColumn {
-    /* a {
-        @apply py-2;
-      } */
-  }
-}
-
-.sectionBreadcrumbs {
-  @apply pb-4;
-}
 .mobileNav {
   @apply p-4;
 }

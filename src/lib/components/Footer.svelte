@@ -1,61 +1,66 @@
 <script lang="ts">
-  import { services } from '$lib/content/site';
   import { titleToSlug } from '$lib/content/site';
   import FooterSocialLinks from './FooterSocialLinks.svelte';
-    import NavLogo from './NavLogo.svelte';
-  // FIXME: Add real Industries
+  const quickLinks = ['Skills', 'Services', 'Build My Team', 'Career', 'About'];
+  const legalLinks = ['Privacy Policy', 'Cookie Policy', 'Refund Policy'];
 </script>
 
-<footer>
-  <div class="footerStrip">
-    <div class="footerStripSection">
-      <FooterSocialLinks />
-      <div class="flex flex-row flex-wrap justify-center">
-        <!-- <a href="/contact" aria-label="Contact">Contact</a>
-        <a href="/faq" aria-label="FAQ">FAQ</a>
-        <a href="/privacy-policy" aria-label="Privacy Policy">Privacy Policy</a>
-        <a href="/rfp" aria-label="Submit RFP">Submit RFP</a> -->
-      </div>
-      <div class="flex flex-row justify-center lg:justify-end text-center">
-        &copy; LowcodeN
-      </div>
-    </div>
+<footer class="p-5" id="footer">
+  <div class="footerTopWrapper flexStart">
+    <h1 class="footerSubHeading">No-Obligation</h1>
+    <a href="https://auxcubed.com/" class="primaryBtn">
+      Join Us
+      <img src="/icons/arrow-up-right.svg" alt="Link to apply at Auxcubed" />
+    </a>
   </div>
-  <div class="footerSection justify-items-start justify-start">
-    <div class="footerColumn">
-      <h3 class="py-4">Services</h3>
-      {#each services?.children ?? [] as link}
-        <a href={link.publishPage ? link.url : `/contact/${link.slug}`} aria-label={link.title}>
-          <div class="footerLink">
-            <div class="bg-contain mr-1.5 group bg-[url('/images/on.svg')] w-4 h-4" 
-            />
-            {link.title}
-          </div>
-        </a>
-      {/each}
+  <h1 class="footerMainHeading">Discovery Consultation</h1>
+
+  <div class="footerColSection">
+    <div class="footerColumn firstCol">
+      <p>
+        We offer a non-obligation discovery consultation session to understand the problem you are
+        working on and to chart out the various ways that Auxcube can be of assistance. PLease use
+        the Contact form or email us at <strong
+          ><a href="mailto:connect@auxcube.com">connect@auxcube.com</a></strong
+        > to initiate a discussion on your engineering needs.
+      </p>
     </div>
     <div class="footerColumn">
-      <h3 class="py-4">Industries</h3>
-      {#each ['Healthcare', 'Transport', 'Real Estate', 'Law'] as link}
-        <!-- <a href={'/' + titleToSlug(link)} aria-label={link}> -->
-          <div class="footerLink">
-            <div class="bg-contain mr-1.5 group bg-[url('/images/on.svg')] w-4 h-4" />
-            {link}
-          </div>
-        <!-- </a> -->
-      {/each}
-    </div>
-    <div class="footerColumn">
-      <img src="/images/auxcube-logo.svg" alt="LowcodeN Logo" class="py-4 object-contain w-1/2" width="240" height="120"/>
-      {#each ['Contact', 'About'] as link} 
-      <!-- , 'Cookie Policy','Careers' -->
+      <h2>Quick Links</h2>
+      {#each quickLinks as link}
         <a href={'/' + titleToSlug(link)} aria-label={link}>
-          <div class="footerLink">
-            <div class="bg-contain mr-1.5 group bg-[url('/images/on.svg')] w-4 h-4" />
+          <p class="footerLink">
             {link}
-          </div>
+          </p>
         </a>
-        {/each}
+      {/each}
+    </div>
+    <div class="footerColumn">
+      <h2>Legal</h2>
+      {#each legalLinks as link}
+        <a href={'/' + titleToSlug(link)} aria-label={link}>
+          <p class="footerLink">
+            {link}
+          </p>
+        </a>
+      {/each}
+    </div>
+    <div class="footerColumn">
+      <h2>Contact</h2>
+      <a href="mailto:connect@auxcube.com">connect@auxcube.com</a>
+      <br />+1 408 757 0560 <br /><br />
+      12520 Pinkham Cr Road, Rexford, <br /> Montana 59930, USA
+    </div>
+
+    <div class="footerColumn socialLinksCol">
+      <a href="#top" class="goToTopBtn">
+        <img src="/icons/arrow-up.svg" alt="Go to Top" />
+      </a>
+      <FooterSocialLinks />
     </div>
   </div>
+  <hr class="footerBreak" />
+  <span class="footerCopyRightText"
+    >© 2024 <a href="https://auxcube.com/">Auxcube</a>. All Rights Reserved.</span
+  >
 </footer>

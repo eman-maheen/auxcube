@@ -10,7 +10,7 @@
       companies. Ensuring seamless alignment between user preferences and
       business requirements is our top priority.
     </p>
-    <a href="https://auxcubed.com/" class="btn btn-primary flex flex-row">
+    <a href="https://auxcubed.com/" class="primaryBtn flex flex-row">
       Join Us
       <img src="/icons/arrow-up-right.svg" alt="Link to apply at Auxcubed" />
     </a>

@@ -2,6 +2,7 @@
   import Footer from "$lib/components/Footer.svelte";
   import Navbar from "$lib/components/Navbar.svelte";
   import type { NavLink } from "$lib/content/site";
+  import { onMount } from "svelte";
   import "../app.postcss";
   let currentMenu: NavLink;
   let showMobileMenu: boolean;
@@ -15,6 +16,24 @@
   $: {
     if (screenWidth > 768 && showMobileMenu) showMobileMenu = false;
   }
+  let scrolledToFooter = false;
+
+  onMount(() => {
+    const handleScroll = () => {
+      const footer = document.getElementById("footer");
+      if (footer) {
+        const footerOffset = footer.offsetTop;
+        const scrollTop = window.pageYOffset;
+        const windowHeight = window.innerHeight;
+        scrolledToFooter = scrollTop + windowHeight >= footerOffset;
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
 </script>
 
 <svelte:head>
@@ -46,10 +65,13 @@
 
 <!-- NOTE: Why >> <div style="display: contents" class="h-full overflow-hidden"> -->
 <svelte:window bind:innerWidth={screenWidth} />
-<Navbar bind:currentMenu bind:showMobileMenu />
+{#if !scrolledToFooter}
+  <Navbar bind:currentMenu bind:showMobileMenu />
+{/if}
 <div id="appShell" class:brightness-25={blurDesktop || blurMobile}>
   <main id="pageSlot" class="content">
     <slot />
   </main>
+
   <Footer />
 </div>
