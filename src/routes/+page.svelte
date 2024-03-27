@@ -15,11 +15,11 @@
 <div class="content">
   <HeroTop />
   <HeroMiddle />
-  <HolisticConsulting />
 </div>
+<HolisticConsulting />
 <BrandVisionSlider />
+<EngagementModels />
 <div class="content">
-  <EngagementModels />
   <Partnerships />
   <Clients />
 </div>

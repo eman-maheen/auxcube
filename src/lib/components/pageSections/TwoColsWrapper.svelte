@@ -7,7 +7,7 @@
     if (screenWidth > 768) showMobileMenu = false;
     else showMobileMenu = true;
   }
-  $: isConsultingComponent = imageAligned === 'left'
+  $: isConsultingComponent = imageAligned === 'left';
 </script>
 
 <svelte:window bind:innerWidth={screenWidth} />
@@ -24,17 +24,20 @@
     {/if}
   </div>
 {:else}
-  <div class="responsiveFullWidthRow">
-    <div class="wrapperLeftCol flex-1">
+  <div class={'responsiveFullWidthRow max-w-[78%] ' + (isConsultingComponent ? '' : 'heroMain')}>
+    <div
+      class={'wrapperLeftCol ' +
+        (isConsultingComponent ? '' : 'md:overflow-y-auto md:no-scrollbar md:h-screen')}
+    >
       <slot name="leftColumn" />
     </div>
     <div class="wrapperRightCol">
-      <div class={imageAligned === "left" ?"contentRightCol": "contentRightCol ml-20"}>
+      <div class={isConsultingComponent ? 'contentRightCol' : 'contentRightCol ml-20'}>
         <slot name="rightColumn" />
         {#if isConsultingComponent}
-          <div class="ml-0 md:mr-10"><slot name="rightColumnImage" /></div>
+          <div class="consultingRightCol"><slot name="rightColumnImage" /></div>
         {:else if !isConsultingComponent}
-          <div class="md:mr-0 md:self-end"><slot name="rightColumnImage" /></div>
+          <div class="modelsRightCol"><slot name="rightColumnImage" /></div>
         {/if}
       </div>
       <slot />

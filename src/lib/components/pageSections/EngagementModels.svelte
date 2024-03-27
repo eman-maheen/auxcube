@@ -38,8 +38,8 @@
 
 <TwoColsWrapper imageAligned="right">
   <div slot="leftColumn">
-    <h2 class="bannerHeading headingLarge">
-      Engagement<span class="emphasize">{' Models'}</span>
+    <h2 class="bannerHeading">
+      Engagement<br /><span class="emphasize"><h1>{' Models'}</h1></span>
     </h2>
     {#each models as model, index}
       <ol class="ordered">
@@ -59,13 +59,13 @@
   </div>
 
   <div slot="rightColumn">
-    <p class="topAlignedText md:ml-10">
+    <p class="topAlignedText">
       Whether your existing engineering team is short-handed on one technology, you want an
       engineering team to call your own, or just need an MVP without worrying about software
       engineering, with our flexible engagement models, you choose exactly how we can help you.
     </p>
   </div>
   <div slot="rightColumnImage">
-    <img src="/images/engagement_models.webp" alt="cubes" />
+    <img src="/images/engagement_models.webp" width="300" alt="cubes" />
   </div>
 </TwoColsWrapper>

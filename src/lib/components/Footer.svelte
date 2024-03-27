@@ -6,15 +6,17 @@
 </script>
 
 <footer class="p-5" id="footer">
-  <div class="footerTopWrapper flexStart">
-    <h1 class="footerSubHeading">No-Obligation</h1>
-    <a href="https://auxcubed.com/" class="primaryBtn">
-      Join Us
-      <img src="/icons/arrow-up-right.svg" alt="Link to apply at Auxcubed" />
-    </a>
-  </div>
-  <h1 class="footerMainHeading">Discovery Consultation</h1>
+  <div class="footerTopWrapper">
+    <div class="footerTopRow flexStart">
+      <h2>No-Obligation</h2>
+      <a href="https://auxcubed.com/" class="primaryBtn">
+        Join Us
+        <img src="/icons/arrow-up-right.svg" alt="Link to apply at Auxcubed" />
+      </a>
+    </div>
 
+    <h1 class="footerMainHeading">Discovery Consultation</h1>
+  </div>
   <div class="footerColSection">
     <div class="footerColumn firstCol">
       <p>
@@ -26,7 +28,7 @@
       </p>
     </div>
     <div class="footerColumn">
-      <h2>Quick Links</h2>
+      <h3>Quick Links</h3>
       {#each quickLinks as link}
         <a href={'/' + titleToSlug(link)} aria-label={link}>
           <p class="footerLink">
@@ -36,7 +38,7 @@
       {/each}
     </div>
     <div class="footerColumn">
-      <h2>Legal</h2>
+      <h3>Legal</h3>
       {#each legalLinks as link}
         <a href={'/' + titleToSlug(link)} aria-label={link}>
           <p class="footerLink">
@@ -46,7 +48,7 @@
       {/each}
     </div>
     <div class="footerColumn">
-      <h2>Contact</h2>
+      <h3>Contact</h3>
       <a href="mailto:connect@auxcube.com">connect@auxcube.com</a>
       <br />+1 408 757 0560 <br /><br />
       12520 Pinkham Cr Road, Rexford, <br /> Montana 59930, USA

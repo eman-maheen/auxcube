@@ -9,16 +9,16 @@
   <img
     class="block dark:hidden"
     src="/images/auxcube-logo.svg"
-    aria-label="LowcodeN Logo"
-    alt="LowcodeN Logo"
+    aria-label="Logo"
+    alt="Auxcube Logo"
     width="240"
     height="120"
   />
   <img
     class="hidden dark:block"
     src="/images/auxcube-logo.svg"
-    aria-label="LowcodeN Logo"
-    alt="LowcodeN Logo"
+    aria-label="Logo"
+    alt="Auxcube Logo"
     width="240"
     height="120"
   />

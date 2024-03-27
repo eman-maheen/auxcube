@@ -39,16 +39,16 @@
 <div class="heroMain">
   <div class="heroContent">
     <div class="wrapperClientsRightCol">
-      <h1 class="mb-5">
-        We Build<br /><span class="emphasize">{' Values'}</span>
-      </h1>
+      <h2 class="bannerHeading">
+        We Build<br /><span class="emphasize"><h1>{' Values'}</h1></span>
+      </h2>
       <p>{clients[currentClientIndex].review}</p>
       <div class="flexStart my-5">
-        <div class="pillBox flex-1">
+        <div class="pillBox">
           <div class="numberedCircle">
             {currentClientIndex + 1 + '/' + clients.length}
           </div>
-          <div class="md:pl-5 flex-1">
+          <div class="clientName">
             {clients[currentClientIndex].name}<br />{clients[currentClientIndex].position}
           </div>
         </div>
@@ -71,8 +71,10 @@
         </div>
       </div>
     </div>
-    <div class="flex-1">
-      <img src="/images/cubes.webp" alt="cubes" />
+    <div class="clientAnimationWrapper">
+      <video autoplay loop muted playsinline height="200" width="250">
+        <source src="/videos/3D_cuboid.webm" type="video/webm" />
+      </video>
     </div>
   </div>
 </div>

@@ -13,6 +13,31 @@
   font-weight: 300 700;
   font-display: swap;
 }
+@font-face {
+  font-family: 'LemonMilk-Bold';
+  src: url('/fonts/Heading/LEMONMILK-Bold.otf');
+}
+@font-face {
+  font-family: 'LemonMilk';
+  src: url('/fonts/Heading/LEMONMILK-Regular.otf');
+}
+@font-face {
+  font-family: 'LemonMilk-Light';
+  src: url('/fonts/Heading/LEMONMILK-Light.otf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Body/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('/fonts/Body/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: 'BeBasNue-Bold';
+  src: url('/fonts/BrandVision/BebasNeue-Bold.otf');
+}
+
 /* format('supports variation'); */
 
 .btn {
@@ -34,7 +59,7 @@ html {
     /* @apply bg-white dark:bg-black text-black dark:text-white text-center; */
 /* }  */
 body {
-  @apply bg-surface-dark-900;
+  @apply bg-base-100 text-white tracking-wide leading-loose;
 }
 /* * {
    scroll-pt-[calc(var(--nav-height)*5)]
@@ -46,10 +71,10 @@ body {
 }
 
 h1 {
-  @apply text-5xl lg:text-7xl;
+  @apply text-3xl md:text-5xl;
 }
 h2 {
-  @apply text-2xl lg:text-4xl;
+  @apply text-2xl md:text-4xl;
 }
 h3 {
   @apply text-2xl;
@@ -61,11 +86,9 @@ a {
 p {
   @apply p-4 pb-2;
 }
-.headingLarge {
-  @apply text-5xl pb-5;
-}
+
 .btn {
-  @apply font-nav text-lg;
+  @apply font-btnText text-lg;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -85,7 +108,7 @@ p {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(var(--in));
+  background: currentColor;
 }
 
 .no-scrollbar::-webkit-scrollbar {
@@ -146,9 +169,15 @@ header {
 }
 
 .content {
-  @apply text-center md:px-[calc(var(--nav-height)*2.25)] p-5 leading-loose;
+  @apply text-center py-5 mx-5 md:px-[calc(var(--nav-height)*2)] leading-loose;
 }
 
+.animatedBg {
+  @apply bg-base-100;
+}
+.gradBg {
+  @apply text-center p-3 leading-loose bg-gradient-to-r from-gradient-100 to-base-100 to-10%;
+}
 .page {
   /* @apply p-1  md:p-2 lg:p-4 pt-0 lg:pt-0; */
 }
@@ -198,50 +227,51 @@ header {
 }
 
 footer {
-  @apply bg-surface-dark-800 md:w-full;
+  @apply bg-base-100 md:w-full px-5;
   a {
     &:hover {
       @apply text-primary;
     }
   }
   .footerTopWrapper {
-    @apply px-4 text-center justify-between my-5 space-y-5;
+    @apply px-10;
+  }
+  .footerTopRow {
+    @apply text-center justify-between my-5 flex md:flex-row flex-col-reverse gap-5;
   }
   .footerMainHeading {
-    @apply text-center bannerHeading md:text-8xl md:font-extrabold;
+    @apply text-center tracking-widest items-center bannerHeading md:text-7xl md:font-bold;
   }
-  .footerSubHeading {
-    @apply font-semibold;
-  }
+
   .footerCopyRightText {
     @apply block text-center;
   }
   .footerBreak {
-    @apply my-5 w-1/2 mx-auto block;
+    @apply my-5 block;
   }
   .footerColSection {
-    @apply section grid grid-cols-1 2xl:container md:grid-cols-6  md:mx-auto md:items-center md:justify-center text-base justify-items-start justify-start;
+    @apply section px-5 grid grid-cols-1 2xl:container md:grid-cols-6  md:mx-auto md:items-center md:justify-center text-base justify-items-start justify-start;
   }
   .footerColumn {
-    @apply flex flex-col h-full justify-start justify-self-start pl-4 md:mx-auto;
+    @apply flex flex-col h-full justify-start md:justify-self-start md:text-start justify-self-center text-center md:pl-4 md:mx-auto;
     .footerLink {
-      @apply flex flex-row items-center p-1 md:p-2 hover:opacity-100;
+      @apply flex flex-row items-center justify-center md:justify-start p-1 md:p-2 hover:opacity-100;
     }
     a {
       @apply whitespace-nowrap;
     }
-    h2 {
-      @apply py-4;
+    h3 {
+      @apply py-4 font-bold tracking-wide;
     }
   }
   .socialLinksWrapper {
     @apply flex md:flex-col space-x-4 md:space-y-4 md:space-x-0 justify-center items-center;
   }
   .goToTopBtn {
-    @apply flex bg-surface-dark-200 items-center justify-center rounded-full w-8 h-8 md:h-16 my-5;
+    @apply flex bg-surface-dark-200 items-center justify-center rounded-full w-8 h-8 md:h-16 my-5 ml-5 md:mx-0;
   }
   .socialLinksCol {
-    @apply items-center;
+    @apply items-center flex-row-reverse md:flex-col;
   }
   .firstCol {
     @apply md:col-span-2;
@@ -282,7 +312,7 @@ footer {
   }
 }
 .ordered {
-  @apply relative border-s;
+  @apply m-5 px-5 relative border-s;
   li {
     @apply mb-10 ms-10 bannerText;
   }
@@ -297,19 +327,25 @@ footer {
   @apply md:transform md:-rotate-90 flex items-center md:flex-col md:w-1/5;
 }
 .topAlignedText {
-  @apply md:text-start pt-0;
+  @apply md:text-start md:pt-0 text-center;
 }
 .noWrap {
   @apply md:whitespace-nowrap;
 }
 .responsiveFullWidthRow {
-  @apply flex flex-col md:flex-row w-full;
+  @apply flex flex-col md:flex-row w-full my-10;
 }
 .wrapperLeftCol {
-  @apply flex flex-col bannerText border-r-2 border-zinc-700 md:px-5;
+  @apply flex flex-1 flex-col bannerText border-r-2 border-surface-dark-700 md:px-5;
 }
 .wrapperRightCol {
   @apply bannerText md:w-3/5 items-center;
+}
+.consultingRightCol {
+  @apply ml-0 md:mr-10;
+}
+.modelsRightCol {
+  @apply mr-0 md:self-end;
 }
 .wrapperTitleContentBlock {
   @apply md:text-start mb-10 text-center;
@@ -336,13 +372,19 @@ footer {
   @apply object-contain filter grayscale invert;
 }
 .pillBox {
-  @apply flex border px-2 rounded-full items-center;
+  @apply flex flex-1 w-full border px-2 rounded-full items-center;
 }
 .clientSlider {
   @apply flex md:mx-5 space-x-5 justify-center items-center;
 }
+.clientName {
+  @apply md:pl-5 flex-1;
+}
 .clientSliderBtn {
   @apply flex md:flex-1 items-center justify-center w-8 h-8 my-5;
+}
+.clientAnimationWrapper {
+  @apply flex flex-1 justify-center;
 }
 .prevBtn {
   @apply clientSliderBtn -rotate-90;
@@ -381,5 +423,5 @@ footer {
   @apply flex items-center justify-center text-center relative;
 }
 .brandVisionSliderText {
-  @apply my-5 uppercase font-bold text-white tracking-widest z-10;
+  @apply md:text-8xl text-5xl uppercase font-semibold z-10 font-brandBold;
 }

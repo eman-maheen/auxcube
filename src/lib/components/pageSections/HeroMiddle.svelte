@@ -20,15 +20,13 @@
         We deliver<span class="emphasize">{' Solutions'}</span>
       </h2>
       <video autoplay loop muted playsinline height="200" width="250" class="self-center">
-        <source src="/videos/cubes.webm" type="video/webm" />
+        <source src="/videos/animated_cuboid.webm" type="video/webm" />
       </video>
     </div>
     <div class="heroMiddleContent self-start">
-     
-        We transform your technical challenges into opportunities. Teaming up with Auxcube lets you
-        focus on growing your business while our capable engineers build robust and scalable
-        solutions for your technical challenges.
-     
+      We transform your technical challenges into opportunities. Teaming up with Auxcube lets you
+      focus on growing your business while our capable engineers build robust and scalable solutions
+      for your technical challenges.
       <ul class="unordered">
         {#each services as service}
           <li>{service}</li>
