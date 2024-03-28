@@ -8,12 +8,6 @@
 }
 
 @font-face {
-  font-family: 'Manrope';
-  src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-  font-weight: 300 700;
-  font-display: swap;
-}
-@font-face {
   font-family: 'LemonMilk-Bold';
   src: url('/fonts/Heading/LEMONMILK-Bold.otf');
   font-display: swap;
@@ -65,7 +59,7 @@ html {
     /* @apply bg-white dark:bg-black text-black dark:text-white text-center; */
 /* }  */
 body {
-  @apply bg-base-100 text-white tracking-wide leading-loose;
+  @apply bg-base-100 text-white tracking-wide leading-loose  z-0;
 }
 /* * {
    scroll-pt-[calc(var(--nav-height)*5)]
@@ -312,7 +306,7 @@ footer {
   @apply flex flex-col md:text-start;
 }
 .heroMiddleHeading {
-  @apply whitespace-nowrap m-2 leading-relaxed;
+  @apply whitespace-nowrap leading-relaxed;
 }
 .bannerHeading {
   @apply mb-5 font-bold uppercase;
@@ -360,10 +354,13 @@ footer {
   @apply flex flex-1 flex-col bannerText border-r-2 border-surface-dark-700 md:px-5;
 }
 .wrapperRightCol {
-  @apply bannerText md:w-3/5 items-center;
+  @apply bannerText md:w-3/5 items-center justify-center;
 }
 .consultingRightCol {
-  @apply ml-0 md:mr-10;
+  @apply md:ml-0 md:mr-10;
+}
+.consultingImg {
+  @apply w-[70%] md:w-auto flex justify-center;
 }
 .modelsRightCol {
   @apply mr-2 md:self-end relative z-30;
@@ -405,7 +402,7 @@ footer {
   @apply flex md:flex-1 items-center justify-center w-8 h-8 my-5;
 }
 .clientAnimationWrapper {
-  @apply flex flex-1 justify-center;
+  @apply flex md:flex-1 items-center justify-center my-5;
 }
 .prevBtn {
   @apply clientSliderBtn -rotate-90;

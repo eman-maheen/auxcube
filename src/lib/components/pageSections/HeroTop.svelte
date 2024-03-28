@@ -14,7 +14,7 @@
       <img src="/icons/arrow-up-right.svg" alt="Link to apply at Auxcubed" />
     </a>
   </div>
-  <video autoplay loop muted playsinline class="animatedBgHero">
-    <source src="/videos/bg.mp4" type="video/mp4" />
+  <video autoplay loop muted class="animatedBgHero" poster="/images/bg.webp">
+    <source src="/videos/bg.webm" type="video/webm" />
   </video>
 </div>

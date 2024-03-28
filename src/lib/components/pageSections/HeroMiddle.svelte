@@ -19,15 +19,16 @@
         We understand<span class="emphasize">{' Business'}</span><br />
         We deliver<span class="emphasize">{' Solutions'}</span>
       </h2>
-      <video autoplay loop muted playsinline height="200" width="250" class="self-center">
+      <video autoplay loop muted height="200" width="250" class="self-center">
         <source src="/videos/animated_cuboid.webm" type="video/webm" />
       </video>
     </div>
     <div class="heroMiddleContent self-start">
-      <p class='pt-0'>
-      We transform your technical challenges into opportunities. Teaming up with Auxcube lets you
-      focus on growing your business while our capable engineers build robust and scalable solutions
-      for your technical challenges.</p>
+      <p class="pt-0">
+        We transform your technical challenges into opportunities. Teaming up with Auxcube lets you
+        focus on growing your business while our capable engineers build robust and scalable
+        solutions for your technical challenges.
+      </p>
       <ul class="unordered">
         {#each services as service}
           <li>{service}</li>

@@ -13,6 +13,7 @@
     alt="Auxcube Logo"
     width="240"
     height="120"
+    loading="lazy"
   />
   <img
     class="hidden dark:block"
@@ -21,5 +22,6 @@
     alt="Auxcube Logo"
     width="240"
     height="120"
+    loading="lazy"
   />
 </div>

@@ -60,8 +60,8 @@
       mere code through sharing insights and recommendations for improvement and optimization.
     </p>
   </div>
-  <div slot="rightColumnImage">
-    <img src="/images/cubes.webp" height="400" width="450" alt="cubes" />
+  <div slot="rightColumnImage" class="consultingImg">
+    <img src="/images/cubes.webp" alt="cubes" />
   </div>
   <div class="verticalText">
     <h1 class="noWrap">

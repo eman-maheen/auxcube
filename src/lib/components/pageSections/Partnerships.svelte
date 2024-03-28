@@ -13,7 +13,14 @@
   <div class="heroContent zIndex">
     <div class="wrapperPartnersLogos">
       {#each logos as logo}
-        <img src="/images/{logo}" width="100" height="100" alt="logo" class="partnerLogo" />
+        <img
+          src="/images/{logo}"
+          loading="lazy"
+          width="100"
+          height="100"
+          alt="logo"
+          class="partnerLogo"
+        />
       {/each}
     </div>
 
@@ -28,7 +35,7 @@
       </p>
     </div>
   </div>
-  <video autoplay loop muted playsinline class="animatedBg">
-    <source src="/videos/bg.mp4" type="video/mp4" />
+  <video autoplay loop muted class="animatedBg" poster="/images/bg.webp">
+    <source src="/videos/bg.webm" type="video/webm" />
   </video>
 </div>
