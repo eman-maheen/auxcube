@@ -12,7 +12,8 @@
   <title>Auxcube | Build Outside The Box</title>
   <meta name="description" content="Auxcube" />
 </svelte:head>
-<div class="content">
+
+<div class="heroWrapper">
   <HeroTop />
   <HeroMiddle />
 </div>

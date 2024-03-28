@@ -10,7 +10,7 @@
 </script>
 
 <div class="heroMain text-end">
-  <div class="heroContent">
+  <div class="heroContent zIndex">
     <div class="wrapperPartnersLogos">
       {#each logos as logo}
         <img src="/images/{logo}" width="100" height="100" alt="logo" class="partnerLogo" />
@@ -28,4 +28,7 @@
       </p>
     </div>
   </div>
+  <video autoplay loop muted playsinline class="animatedBg">
+    <source src="/videos/bg.mp4" type="video/mp4" />
+  </video>
 </div>

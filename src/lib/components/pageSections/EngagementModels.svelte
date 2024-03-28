@@ -38,7 +38,7 @@
 
 <TwoColsWrapper imageAligned="right">
   <div slot="leftColumn">
-    <h2 class="bannerHeading">
+    <h2 class="bannerHeading text-center">
       Engagement<br /><span class="emphasize"><h1>{' Models'}</h1></span>
     </h2>
     {#each models as model, index}
@@ -66,6 +66,6 @@
     </p>
   </div>
   <div slot="rightColumnImage">
-    <img src="/images/engagement_models.webp" width="300" alt="cubes" />
+    <img src="/images/engagement_models.webp" width="300" height="250" alt="cubes" />
   </div>
 </TwoColsWrapper>

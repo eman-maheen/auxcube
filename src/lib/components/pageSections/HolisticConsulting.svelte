@@ -41,7 +41,7 @@
   ];
 </script>
 
-<TwoColsWrapper imageAligned='left'>
+<TwoColsWrapper imageAligned="left">
   <div slot="leftColumn">
     {#each consultations as consultation}
       <TitleContentBlock
@@ -61,7 +61,7 @@
     </p>
   </div>
   <div slot="rightColumnImage">
-    <img src="/images/cubes.webp" alt="cubes" />
+    <img src="/images/cubes.webp" height="400" width="450" alt="cubes" />
   </div>
   <div class="verticalText">
     <h1 class="noWrap">

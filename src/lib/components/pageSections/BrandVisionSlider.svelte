@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onMount, onDestroy } from 'svelte';
+  import { onMount } from 'svelte';
 
   const brandVision: string[] = [
     'Accelerate',
@@ -25,11 +25,9 @@
   });
 </script>
 
-
 <div class="brandVisionSliderWrapper">
-    <div class="brandVisionSliderBgImg"></div>
-    <div class="brandVisionSliderTextWrapper">
-      <h1 class="brandVisionSliderText">{currentStory}</h1>
-    </div>
+  <div class="brandVisionSliderBgImg"></div>
+  <div class="brandVisionSliderTextWrapper">
+    <h1 class="brandVisionSliderText">{currentStory}</h1>
   </div>
-  
+</div>

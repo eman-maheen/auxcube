@@ -12,7 +12,7 @@
   ];
 </script>
 
-<div class="heroMain heroMiddle">
+<div class="heroMain heroMiddle mx-5">
   <div class="heroContent">
     <div class="heroMiddleContent">
       <h2 class="bannerHeading heroMiddleHeading">
@@ -24,9 +24,10 @@
       </video>
     </div>
     <div class="heroMiddleContent self-start">
+      <p class='pt-0'>
       We transform your technical challenges into opportunities. Teaming up with Auxcube lets you
       focus on growing your business while our capable engineers build robust and scalable solutions
-      for your technical challenges.
+      for your technical challenges.</p>
       <ul class="unordered">
         {#each services as service}
           <li>{service}</li>

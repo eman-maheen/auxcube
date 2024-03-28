@@ -9,7 +9,7 @@
   <div class="footerTopWrapper">
     <div class="footerTopRow flexStart">
       <h2>No-Obligation</h2>
-      <a href="https://auxcubed.com/" class="primaryBtn">
+      <a href="https://auxcubed.com/" class="primaryBtn md:mr-10">
         Join Us
         <img src="/icons/arrow-up-right.svg" alt="Link to apply at Auxcubed" />
       </a>

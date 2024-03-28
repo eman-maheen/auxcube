@@ -16,26 +16,32 @@
 @font-face {
   font-family: 'LemonMilk-Bold';
   src: url('/fonts/Heading/LEMONMILK-Bold.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'LemonMilk';
   src: url('/fonts/Heading/LEMONMILK-Regular.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'LemonMilk-Light';
   src: url('/fonts/Heading/LEMONMILK-Light.otf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Roboto';
   src: url('/fonts/Body/Roboto-Regular.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Roboto-Light';
   src: url('/fonts/Body/Roboto-Light.ttf');
+  font-display: swap;
 }
 @font-face {
   font-family: 'BeBasNue-Bold';
   src: url('/fonts/BrandVision/BebasNeue-Bold.otf');
+  font-display: swap;
 }
 
 /* format('supports variation'); */
@@ -122,7 +128,7 @@ header {
     @apply flex flex-row justify-between items-center;
   }
   .navLogo {
-    @apply md:fixed px-4;
+    @apply md:fixed px-4 z-30;
     img {
       @apply w-[calc(var(--nav-height)*1.5)] md:w-[calc(var(--nav-height)*2)];
     }
@@ -131,7 +137,7 @@ header {
     @apply btn btn-ghost md:hidden;
   }
   .navLinks {
-    @apply hidden fixed text-emerald-400 md:flex right-0 text-end px-4;
+    @apply hidden fixed text-emerald-400 md:flex right-0 text-end px-4 z-30;
     li {
       @apply m-3 hover:text-slate-200;
     }
@@ -160,21 +166,30 @@ header {
     }
   }
 }
+
 .pageTitle {
   @apply section font-bold self-start;
 }
 
 .heroContentCenter {
-  @apply flex flex-col hero-content text-start text-neutral-content max-w-md;
+  @apply flex flex-col hero-content text-start text-neutral-content max-w-md my-5;
+}
+
+.heroWrapper {
+  @apply text-center py-5 md:px-[calc(var(--nav-height)*2)] leading-loose md:max-w-[85%];
 }
 
 .content {
-  @apply text-center py-5 mx-5 md:px-[calc(var(--nav-height)*2)] leading-loose;
+  @apply text-center py-5 md:px-[calc(var(--nav-height)*2)] leading-loose;
 }
 
 .animatedBg {
-  @apply bg-base-100;
+  @apply mix-blend-overlay absolute z-10 h-full object-cover w-full overflow-hidden ;
 }
+.animatedBgHero {
+  @apply mix-blend-overlay absolute z-10 w-full min-h-full md:mb-20 object-cover overflow-hidden;
+}
+
 .gradBg {
   @apply text-center p-3 leading-loose bg-gradient-to-r from-gradient-100 to-base-100 to-10%;
 }
@@ -220,7 +235,7 @@ header {
   @apply breadcrumbs section text-sm self-start bg-base-100;
 }
 #appShell {
-  @apply flex flex-col overflow-hidden w-full h-full  z-30 duration-300 ease-in-out;
+  @apply flex flex-col overflow-hidden w-full h-full duration-300 ease-in-out;
 }
 .subnavItem {
   @apply flex flex-row;
@@ -240,7 +255,7 @@ footer {
     @apply text-center justify-between my-5 flex md:flex-row flex-col-reverse gap-5;
   }
   .footerMainHeading {
-    @apply text-center tracking-widest items-center bannerHeading md:text-7xl md:font-bold;
+    @apply text-center  tracking-wide items-center bannerHeading md:text-7xl md:text-justify md:font-bold;
   }
 
   .footerCopyRightText {
@@ -279,10 +294,16 @@ footer {
 }
 
 .heroMain {
-  @apply hero md:h-screen;
+  @apply hero md:h-screen relative md:static;
 }
 .heroContent {
-  @apply hero-content responsiveFullWidthRow md:space-x-5;
+  @apply hero-content responsiveFullWidthRow;
+}
+.heroTopWrapper {
+  @apply heroTopContent px-5 md:px-0 zIndex;
+}
+.zIndex {
+  @apply relative z-20;
 }
 .heroTopContent {
   @apply flex flex-col items-center text-center mb-5;
@@ -291,7 +312,7 @@ footer {
   @apply flex flex-col md:text-start;
 }
 .heroMiddleHeading {
-  @apply whitespace-nowrap leading-relaxed;
+  @apply whitespace-nowrap m-2 leading-relaxed;
 }
 .bannerHeading {
   @apply mb-5 font-bold uppercase;
@@ -303,7 +324,7 @@ footer {
   @apply flex my-5;
 }
 .heroMiddle {
-  @apply hero h-full mx-auto;
+  @apply justify-center hero h-full mx-auto py-5 justify-center;
 }
 .unordered {
   @apply m-5 px-5 md:leading-10 text-start columns-2;
@@ -312,9 +333,9 @@ footer {
   }
 }
 .ordered {
-  @apply m-5 px-5 relative border-s;
+  @apply m-5 md:px-5 relative border-s;
   li {
-    @apply mb-10 ms-10 bannerText;
+    @apply mb-10 md:ms-10 ms-5 bannerText;
   }
 }
 .numberedCircleLong {
@@ -324,7 +345,7 @@ footer {
   @apply flex text-black items-center justify-center w-8 h-8 bg-gray-200 rounded-full;
 }
 .verticalText {
-  @apply md:transform md:-rotate-90 flex items-center md:flex-col md:w-1/5;
+  @apply md:transform md:-rotate-90 flex items-center text-center md:flex-col md:w-1/5;
 }
 .topAlignedText {
   @apply md:text-start md:pt-0 text-center;
@@ -345,7 +366,7 @@ footer {
   @apply ml-0 md:mr-10;
 }
 .modelsRightCol {
-  @apply mr-0 md:self-end;
+  @apply mr-2 md:self-end relative z-30;
 }
 .wrapperTitleContentBlock {
   @apply md:text-start mb-10 text-center;
@@ -360,7 +381,7 @@ footer {
   @apply flex flex-col;
 }
 .wrapperPartnersLogos {
-  @apply flex flex-wrap md:px-10 self-end justify-center md:gap-20 gap-10;
+  @apply flex flex-wrap px-10 self-end justify-center md:gap-20 gap-10;
 }
 .wrapperPartnersRightCol {
   @apply order-first md:order-last flex-1 md:text-end md:ml-10 text-center;
@@ -372,7 +393,7 @@ footer {
   @apply object-contain filter grayscale invert;
 }
 .pillBox {
-  @apply flex flex-1 w-full border px-2 rounded-full items-center;
+  @apply flex flex-1 md:w-full border px-2  rounded-full items-center;
 }
 .clientSlider {
   @apply flex md:mx-5 space-x-5 justify-center items-center;
@@ -423,5 +444,5 @@ footer {
   @apply flex items-center justify-center text-center relative;
 }
 .brandVisionSliderText {
-  @apply md:text-8xl text-5xl uppercase font-semibold z-10 font-brandBold;
+  @apply md:text-9xl text-5xl uppercase font-semibold z-30 font-brandBold;
 }
