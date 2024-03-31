@@ -31,13 +31,24 @@
   function prevClient() {
     currentClientIndex = (currentClientIndex - 1 + clients.length) % clients.length;
   }
+  let showMobileView: boolean;
+  let screenWidth = 0;
 
   $: isRightDisabled = currentClientIndex === clients.length - 1;
   $: isLeftDisabled = currentClientIndex === 0;
+  $: {
+    if (screenWidth > 768) showMobileView = false;
+    else showMobileView = true;
+  }
 </script>
-
+<svelte:window bind:innerWidth={screenWidth} />
 <div class="heroMain">
   <div class="heroContent">
+    {#if showMobileView===false}
+      <div class="gradWrapper">
+        <div class="gradEffect"></div>
+      </div>
+    {/if}
     <div class="wrapperClientsRightCol">
       <h2 class="bannerHeading">
         We Build<br /><span class="emphasize"><h1>{' Values'}</h1></span>

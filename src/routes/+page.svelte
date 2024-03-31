@@ -20,7 +20,9 @@
 <HolisticConsulting />
 <BrandVisionSlider />
 <EngagementModels />
-<div class="content">
+<div class="partnershipWrapper">
   <Partnerships />
+</div>
+<div class="clientWrapper">
   <Clients />
 </div>

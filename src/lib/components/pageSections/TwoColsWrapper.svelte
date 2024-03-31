@@ -1,17 +1,17 @@
 <script lang="ts">
-  let showMobileMenu: boolean;
+  let showMobileView: boolean;
   let isConsultingComponent: boolean;
   let screenWidth = 0;
   export let imageAligned = 'right';
   $: {
-    if (screenWidth > 768) showMobileMenu = false;
-    else showMobileMenu = true;
+    if (screenWidth > 768) showMobileView = false;
+    else showMobileView = true;
   }
   $: isConsultingComponent = imageAligned === 'left';
 </script>
 
 <svelte:window bind:innerWidth={screenWidth} />
-{#if showMobileMenu}
+{#if showMobileView}
   <div class="heroContent">
     {#if !isConsultingComponent}
       <slot name="leftColumn" />
@@ -27,7 +27,7 @@
   <div class={'responsiveFullWidthRow max-w-[78%] ' + (isConsultingComponent ? '' : 'heroMain')}>
     <div
       class={'wrapperLeftCol ' +
-        (isConsultingComponent ? '' : 'md:overflow-y-auto md:no-scrollbar md:h-screen')}
+        (isConsultingComponent ? '' : 'modelsLeftCol')}
     >
       <slot name="leftColumn" />
     </div>

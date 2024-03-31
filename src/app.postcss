@@ -111,10 +111,6 @@ p {
   background: currentColor;
 }
 
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
 #header {
   @apply md:py-8 font-nav;
 
@@ -173,19 +169,27 @@ p {
   @apply text-center py-5 md:px-[calc(var(--nav-height)*2)] leading-loose md:max-w-[85%];
 }
 
-.content {
-  @apply text-center py-5 md:px-[calc(var(--nav-height)*2)] leading-loose;
+.contentWrapper {
+  @apply text-center md:px-[calc(var(--nav-height)*2.25)] leading-loose;
+}
+
+.clientWrapper {
+  @apply text-center leading-loose;
 }
 
 .animatedBg {
-  @apply mix-blend-overlay absolute z-10 h-full object-cover w-full overflow-hidden ;
+  @apply mix-blend-overlay absolute z-10 h-full object-cover w-full overflow-hidden;
 }
+
 .animatedBgHero {
   @apply mix-blend-overlay absolute z-10 w-full min-h-full md:mb-20 object-cover overflow-hidden;
 }
 
-.gradBg {
-  @apply text-center p-3 leading-loose bg-gradient-to-r from-gradient-100 to-base-100 to-10%;
+.gradEffect {
+  @apply overflow-hidden absolute inset-0 transform z-40 -translate-x-1/2 -translate-y-1/2 h-80 w-40 rounded-r-full bg-gradient-to-br from-primary to-white mix-blend-multiply blur-3xl opacity-30;
+}
+.gradWrapper {
+  @apply relative mr-20;
 }
 .page {
   /* @apply p-1  md:p-2 lg:p-4 pt-0 lg:pt-0; */
@@ -364,6 +368,9 @@ footer {
 }
 .modelsRightCol {
   @apply mr-2 md:self-end relative z-30;
+}
+.modelsLeftCol {
+  @apply md:overflow-y-auto md:h-screen;
 }
 .wrapperTitleContentBlock {
   @apply md:text-start mb-10 text-center;
