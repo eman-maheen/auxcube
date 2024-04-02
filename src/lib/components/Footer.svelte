@@ -1,8 +1,6 @@
 <script lang="ts">
-  import { titleToSlug } from '$lib/content/site';
+  import { legalLinks, quickLinks, titleToSlug } from '$lib/content/site';
   import FooterSocialLinks from './FooterSocialLinks.svelte';
-  const quickLinks = ['Skills', 'Services', 'Build My Team', 'Career', 'About'];
-  const legalLinks = ['Privacy Policy', 'Cookie Policy', 'Refund Policy'];
 </script>
 
 <footer class="p-5" id="footer">
@@ -29,20 +27,20 @@
     </div>
     <div class="footerColumn">
       <h3>Quick Links</h3>
-      {#each quickLinks as link}
-        <a href={'/' + titleToSlug(link)} aria-label={link}>
+      {#each quickLinks?.children ?? [] as link}
+        <a href={'/' + titleToSlug(link.title)} aria-label={link.url}>
           <p class="footerLink">
-            {link}
+            {link.title}
           </p>
         </a>
       {/each}
     </div>
     <div class="footerColumn">
       <h3>Legal</h3>
-      {#each legalLinks as link}
-        <a href={'/' + titleToSlug(link)} aria-label={link}>
+      {#each legalLinks?.children ?? [] as link}
+        <a href={'/' + titleToSlug(link.title)} aria-label={link.url}>
           <p class="footerLink">
-            {link}
+            {link.title}
           </p>
         </a>
       {/each}

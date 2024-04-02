@@ -1,13 +1,13 @@
 <script lang="ts">
   import { slide } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
-  import { siteNav } from '$lib/content/site';
+  import { topNav } from '$lib/content/site';
   import { page } from '$app/stores';
 
   export let onSublinkClick = () => {};
   let currentSubMenu: any = undefined;
   const showSubMenu = (linkId: string | undefined) => {
-    let submenuObj = siteNav.find((v) => v.url == linkId);
+    let submenuObj = topNav.find((v) => v.url == linkId);
     if (submenuObj?.url == currentSubMenu?.url) {
       // Same menu as the one showing - do nothing
       //   currentMenu = undefined;
@@ -20,6 +20,7 @@
  
 </script>
 
+<!-- FIXME: Clicking on mobile navbar icon changes the animated bg color back to original - z-index issue-->
 <div
   class="mobileNav"
   transition:slide={{ delay: 250, duration: 300, easing: quintOut, axis: 'x' }}
@@ -39,7 +40,7 @@
         axis: 'x'
       }}
     >
-      {#each siteNav as link}
+      {#each topNav as link}
         <li class={`subnavItem`}>
             <div class="flex flex-row">
               <a

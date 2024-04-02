@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { siteNav } from "$lib/content/site";
+  import { topNav } from "$lib/content/site";
   import { page } from "$app/stores";
   import NavLogo from "./NavLogo.svelte";
   import MobileNav from "./MobileNav.svelte";
@@ -38,7 +38,7 @@
   </div>
   <div class="navLinks">
     <ul>
-      {#each siteNav as link}
+      {#each topNav as link}
         <li>
           <a
             href={link.publishPage ? link.url : `/contact/${link.slug}`}
