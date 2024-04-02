@@ -9,32 +9,32 @@
 
 @font-face {
   font-family: 'LemonMilk-Bold';
-  src: url('/fonts/Heading/LEMONMILK-Bold.otf');
+  src: url('/fonts/lemon-milk/LEMONMILK-Bold.otf');
   font-display: swap;
 }
 @font-face {
   font-family: 'LemonMilk';
-  src: url('/fonts/Heading/LEMONMILK-Regular.otf');
+  src: url('/fonts/lemon-milk/LEMONMILK-Regular.otf');
   font-display: swap;
 }
 @font-face {
   font-family: 'LemonMilk-Light';
-  src: url('/fonts/Heading/LEMONMILK-Light.otf');
+  src: url('/fonts/lemon-milk/LEMONMILK-Light.otf');
   font-display: swap;
 }
 @font-face {
   font-family: 'Roboto';
-  src: url('/fonts/Body/Roboto-Regular.ttf');
+  src: url('/fonts/roboto/Roboto-Regular.ttf');
   font-display: swap;
 }
 @font-face {
   font-family: 'Roboto-Light';
-  src: url('/fonts/Body/Roboto-Light.ttf');
+  src: url('/fonts/lemon-milk/Roboto-Light.ttf');
   font-display: swap;
 }
 @font-face {
   font-family: 'BeBasNue-Bold';
-  src: url('/fonts/BrandVision/BebasNeue-Bold.otf');
+  src: url('/fonts/bebas-neue/BebasNeue-Bold.otf');
   font-display: swap;
 }
 
@@ -165,13 +165,10 @@ p {
   @apply flex flex-col hero-content text-start text-neutral-content max-w-md my-5;
 }
 
-.heroWrapper {
+.contentWrapper {
   @apply text-center py-5 md:px-[calc(var(--nav-height)*2)] leading-loose md:max-w-[85%];
 }
 
-.contentWrapper {
-  @apply text-center md:px-[calc(var(--nav-height)*2.25)] leading-loose;
-}
 
 .clientWrapper {
   @apply text-center leading-loose;
@@ -442,7 +439,7 @@ footer {
   @apply relative w-full;
 }
 .brandVisionSliderBgImg {
-  @apply bg-[url('/images/bgBrandVision.webp')] bg-cover bg-no-repeat bg-center filter opacity-50 absolute inset-0;
+  @apply bg-[url('/images/brand-vision-background.webp')] bg-cover bg-no-repeat bg-center filter opacity-50 absolute inset-0;
 }
 .brandVisionSliderTextWrapper {
   @apply flex items-center justify-center text-center relative;

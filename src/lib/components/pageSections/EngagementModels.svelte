@@ -66,6 +66,6 @@
     </p>
   </div>
   <div slot="rightColumnImage">
-    <img src="/images/engagement_models.webp" width="300" height="250" alt="cubes" />
+    <img src="/images/engagement-models-foreground.webp" width="300" height="250" alt="cubes" />
   </div>
 </TwoColsWrapper>

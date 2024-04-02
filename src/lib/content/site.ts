@@ -167,3 +167,4 @@ export const siteNav: Array<NavLink> = siteMap.map(root => computeUrls(root, "")
 export const topNav: Array<NavLink> = siteNav.filter(v => v.topNav);
 export const quickLinks: NavLink | undefined = siteNav.find(v => v.title === "Quick Links");
 export const legalLinks: NavLink | undefined = siteNav.find(v => v.title === "Legal");
+export const services: NavLink | undefined = siteNav.find(v => v.title === "Services");

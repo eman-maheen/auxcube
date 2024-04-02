@@ -13,14 +13,14 @@
   <meta name="description" content="Auxcube" />
 </svelte:head>
 
-<div class="heroWrapper">
+<div class="contentWrapper">
   <HeroTop />
   <HeroMiddle />
 </div>
 <HolisticConsulting />
 <BrandVisionSlider />
 <EngagementModels />
-<div class="partnershipWrapper">
+<div class="contentWrapper">
   <Partnerships />
 </div>
 <div class="clientWrapper">

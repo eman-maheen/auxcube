@@ -84,7 +84,7 @@
     </div>
     <div class="clientAnimationWrapper">
       <video autoplay loop muted playsinline height="200" width="250">
-        <source src="/videos/3D_cuboid.webm" type="video/webm" />
+        <source src="/videos/3D-cuboid.webm" type="video/webm" />
       </video>
     </div>
   </div>

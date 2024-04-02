@@ -61,7 +61,7 @@
     </p>
   </div>
   <div slot="rightColumnImage" class="consultingImg">
-    <img src="/images/cubes.webp" alt="cubes" />
+    <img src="/images/fixed-cubes.webp" alt="cubes" />
   </div>
   <div class="verticalText">
     <h1 class="noWrap">

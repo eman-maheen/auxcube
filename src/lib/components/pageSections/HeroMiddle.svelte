@@ -20,7 +20,7 @@
         We deliver<span class="emphasize">{' Solutions'}</span>
       </h2>
       <video autoplay loop muted height="200" width="250" class="self-center">
-        <source src="/videos/animated_cuboid.webm" type="video/webm" />
+        <source src="/videos/rotating-blocks-cuboid.webm" type="video/webm" />
       </video>
     </div>
     <div class="heroMiddleContent self-start">

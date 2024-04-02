@@ -1,11 +1,11 @@
 <script lang="ts">
   const logos = [
-    'logo-conrad-labs.webp',
-    'logo-tintash.webp',
-    'logo-plugd.webp',
-    'logo-laamp.svg',
-    'logo-ils.webp',
-    'logo-porchpass.svg'
+    'conrad-labs.webp',
+    'tintash.webp',
+    'plugd.webp',
+    'laamp.svg',
+    'ils.webp',
+    'porchpass.svg'
   ];
 </script>
 
@@ -14,7 +14,7 @@
     <div class="wrapperPartnersLogos">
       {#each logos as logo}
         <img
-          src="/images/{logo}"
+          src="/images/partner-logos/{logo}"
           loading="lazy"
           width="100"
           height="100"
@@ -35,7 +35,7 @@
       </p>
     </div>
   </div>
-  <video autoplay loop muted class="animatedBg" poster="/images/bg.webp">
-    <source src="/videos/bg.webm" type="video/webm" />
+  <video autoplay loop muted class="animatedBg" poster="/images/hero-background-frame.webp">
+    <source src="/videos/hero-background.webm" type="video/webm" />
   </video>
 </div>
