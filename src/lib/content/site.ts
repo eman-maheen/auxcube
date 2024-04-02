@@ -22,13 +22,60 @@ export type NavLink = {
 
 export const siteMap: NavLink[] =
     [
-        { title: "Home",  skipScaffold: true, publishPage: true, topNav: true},
-        { title: "Services",  skipScaffold: true, publishPage: true, topNav: true },
-        { title: "Skills",  skipScaffold: true, publishPage: true, topNav: true },
-        { title: "Partners",  skipScaffold: true, publishPage: true, topNav: true  },
-        { title: "Case Studies",  skipScaffold: true, publishPage: true, topNav: true  },
-        { title: "About",  skipScaffold: true, publishPage: true, topNav: true  },
-        { title: "Contact",  skipScaffold: true, publishPage: true, topNav: true },
+        { 
+            title: "Home",  
+            skipScaffold: true, 
+            publishPage: true, 
+            topNav: true
+        },
+        { 
+            title: "Services",  
+            subtitle: "Our Range of Services",
+            snippet: "Explore our diverse range of services tailored to meet your needs.",
+            skipScaffold: true, 
+            publishPage: true, 
+            topNav: true 
+        },
+        { 
+            title: "Skills",  
+            subtitle: "Our Expertise and Skills",
+            snippet: "Learn about our team's expertise and the skills we bring to the table.",
+            skipScaffold: true, 
+            publishPage: true, 
+            topNav: true 
+        },
+        { 
+            title: "Partners",  
+            subtitle: "Meet Our Partners",
+            snippet: "Discover the companies and organizations we collaborate with.",
+            skipScaffold: true, 
+            publishPage: true, 
+            topNav: true  
+        },
+        { 
+            title: "Case Studies",  
+            subtitle: "Explore Our Success Stories",
+            snippet: "Dive into our case studies and learn about our successful projects.",
+            skipScaffold: true, 
+            publishPage: true, 
+            topNav: true  
+        },
+        { 
+            title: "About",  
+            subtitle: "Get to Know Us Better",
+            snippet: "Learn about our mission, vision, and values.",
+            skipScaffold: true, 
+            publishPage: true, 
+            topNav: true  
+        },
+        { 
+            title: "Contact",  
+            subtitle: "Reach Out to Us",
+            snippet: "Contact us for inquiries, collaborations, or just to say hello.",
+            skipScaffold: true, 
+            publishPage: true, 
+            topNav: true 
+        },
      
         {
             skipScaffold: true,
