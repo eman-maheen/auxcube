@@ -4,26 +4,27 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require('tailwindcss/colors');
 
 const darkTheme = {
-          primary: colors.purple[800], // colors.green[400],
-          secondary: colors.red[400],
+  primary: colors.emerald[400], // colors.green[400],
+          secondary: colors.gray[950],
           accent: '#8de8e8',
           neutral: '#1c1424',
-          'base-100': '#150515',
+          'base-100': '#130C13',
           info: colors.fuchsia[300], // '#89abe1',
           success: '#4ae8ab',
           warning: '#fb8e09',
           error: '#e8175d',
           '--blob-color': '123 45% 67%',
-          '--primary-cta-base': '285 65% 12%',
+          '--primary-cta-base': '344 80% 30%',
           "--rounded-btn": "0.125rem",
           h1: {
-            fontFamily: "Manrope",
+            fontFamily: "LemonMilk-Bold",
             fontWeight: 700,
           },
           h2: {
-            fontFamily: "Manrope",
-            fontWeight: 500,
+            fontFamily: "LemonMilk-Light",
+            fontWeight: 600,
           },
+         
         };
 
 // TODO: Install Tailwind forms
@@ -40,19 +41,22 @@ const config = {
         'surface-dark': colors.zinc,
         'primary-cool': "hsl(var(--primary-cool)/1.0)",
         'primary-cta-base': "hsl(var(--primary-cta-base)/1.0)",
+        'gradient-100': '#85B29E',
       },
       fontFamily: {
-        hero: ['Manrope', 'ui-sans-serif'],
-        nav: ['Manrope', 'ui-sans-serif'],
+        hero: ['Roboto-Light', 'ui-sans-serif'],
+        nav: ['LemonMilk', 'ui-sans-serif'],
+        btnText: ['Roboto-Light', 'ui-sans-serif'],
+        brandBold: ['BeBasNue-Bold', 'ui-sans-serif'],
       },
       brightness: {
         25: '.25',
       }
     },
     fontFamily: {
-      sans: ['Manrope', ...defaultTheme.fontFamily.sans],
-      serif: ['Manrope', ...defaultTheme.fontFamily.serif],
-      mono: ['Manrope', ...defaultTheme.fontFamily.mono],
+      sans: ['Roboto-Light', ...defaultTheme.fontFamily.sans],
+      serif: ['Roboto-Light', ...defaultTheme.fontFamily.serif],
+      mono: ['Roboto', ...defaultTheme.fontFamily.mono],
     },
   },
 

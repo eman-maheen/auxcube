@@ -1,5 +1,5 @@
-<div class="flex flex-row justify-center lg:justify-start items-center">
-  <a href="https://www.facebook.com/lowcoden" aria-label="LowcodeN Facebook" target="_blank">
+<div class="socialLinksWrapper">
+  <a href="https://www.facebook.com/auxcube" aria-label="Auxcube Facebook" target="_blank">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="h-5 w-5"
@@ -11,7 +11,7 @@
       />
     </svg>
   </a>
-  <a href="https://twitter.com/lowcoden" aria-label="LowcodeN Twitter" target="_blank">
+  <a href="https://twitter.com/auxcube" aria-label="Auxcube Twitter" target="_blank">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="h-5 w-5"
@@ -23,7 +23,7 @@
       />
     </svg>
   </a>
-  <a href="https://instagram.com/lowcoden" aria-label="LowcodeN Instagram" target="_blank">
+  <a href="https://instagram.com/auxcube" aria-label="Auxcube Instagram" target="_blank">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="h-5 w-5"
@@ -35,7 +35,7 @@
       />
     </svg></a
   >
-  <a href="https://linkedin.com/company/lowcoden" aria-label="LinkedIn" target="_blank">
+  <a href="https://linkedin.com/company/auxcube" aria-label="LinkedIn" target="_blank">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="h-5 w-5"
