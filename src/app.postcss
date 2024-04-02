@@ -29,7 +29,7 @@
 }
 @font-face {
   font-family: 'Roboto-Light';
-  src: url('/fonts/lemon-milk/Roboto-Light.ttf');
+  src: url('/fonts/roboto/Roboto-Light.ttf');
   font-display: swap;
 }
 @font-face {
@@ -169,6 +169,9 @@ p {
   @apply text-center py-5 md:px-[calc(var(--nav-height)*2)] leading-loose md:max-w-[85%];
 }
 
+.partnershipWrapper {
+  @apply text-center py-5 md:px-[calc(var(--nav-height)*2.25)] leading-loose;
+}
 
 .clientWrapper {
   @apply text-center leading-loose;
@@ -382,7 +385,7 @@ footer {
   @apply flex flex-col;
 }
 .wrapperPartnersLogos {
-  @apply flex flex-wrap px-10 self-end justify-center md:gap-20 gap-10;
+  @apply flex flex-wrap self-end justify-center md:gap-20 gap-10;
 }
 .wrapperPartnersRightCol {
   @apply order-first md:order-last flex-1 md:text-end md:ml-10 text-center;
@@ -394,13 +397,13 @@ footer {
   @apply object-contain filter grayscale invert;
 }
 .pillBox {
-  @apply flex flex-1 md:w-full border px-2  rounded-full items-center;
+  @apply flex flex-1 w-[80%] border px-5 rounded-full items-center;
 }
 .clientSlider {
   @apply flex md:mx-5 space-x-5 justify-center items-center;
 }
 .clientName {
-  @apply md:pl-5 flex-1;
+  @apply flex-1 text-center;
 }
 .clientSliderBtn {
   @apply flex md:flex-1 items-center justify-center w-8 h-8 my-5;
